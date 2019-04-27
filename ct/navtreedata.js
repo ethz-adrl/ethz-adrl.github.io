@@ -13,19 +13,25 @@ var NAVTREE =
         [ "CT Rigid Body Dynamics", "index.html#ct_rbd_overview", null ],
         [ "CT Models:", "index.html#ct_models_overview", null ]
       ] ],
-      [ "Source Code", "index.html#source_code", null ],
       [ "How to use the Control Toolbox", "index.html#gs", null ],
       [ "Support", "index.html#contact", null ],
       [ "Acknowledgements", "index.html#ct_doc_acknowledgement", [
         [ "Contributors", "index.html#contribs", null ],
-        [ "Project Lead and Maintenance", "index.html#lead_overview", null ],
-        [ "Funding", "index.html#funding", null ]
+        [ "Maintenance", "index.html#lead_overview", null ],
+        [ "Funding 2014-2018", "index.html#funding", null ]
       ] ],
       [ "Licence Information", "index.html#licence", null ],
       [ "How to cite the CT", "index.html#cite_ct", null ],
       [ "Related Publications", "index.html#publications", null ]
     ] ],
-    [ "Installation", "install_guide.html", "install_guide" ],
+    [ "Installation", "install_guide.html", [
+      [ "Requirements:", "install_guide.html#req", null ],
+      [ "Dependencies and building the library", "install_guide.html#dep", null ],
+      [ "Optional Dependencies and Bindings", "install_guide.html#opt_dep", null ],
+      [ "build arguments", "install_guide.html#Additional", null ],
+      [ "Build this Documentation", "install_guide.html#build_doc", null ],
+      [ "Run Unit Tests", "install_guide.html#run_tests", null ]
+    ] ],
     [ "Getting Started", "getting_started.html", "getting_started" ],
     [ "Performance Optimization", "performance.html", "performance" ],
     [ "Application Examples", "application_examples.html", [

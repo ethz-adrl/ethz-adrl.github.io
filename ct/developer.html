@@ -110,8 +110,7 @@ $(document).ready(function(){initNavTree('developer.html','');});
 <div class="textblock"><p>We very much welcome external developers. Small changes and contributions can be made via pull requests. If you have a larger enhancement, bug fix or other contribution in mind, feel free to first create an issue to align the development with ongoing activities.</p>
 <h1><a class="anchor" id="Code"></a>
 Formatting</h1>
-<p>We support clang-format and provide a style template to automatically format the source code. Please refer to the clang-format style sheet in the package root directory for our conventions. Or simply rely on clang-format to do the formatting for you.</p>
-<p>Note for developers using the <em>Eclipse IDE</em>: you can conveniently integrate clang-format (and our .clang-format configuration file) in your project using the "CppStyle" plugin (see <a href="http://www.cppstyle.com/">http://www.cppstyle.com/</a> for detailed information). To automatically format the code according to ct-style, just mark the source-code and press <em>Ctrl+Shift+f</em>.</p>
+<p>We support clang-format and provide a style template to automatically format the source code. Please refer to the clang-format style sheet in the package root directory for our conventions.</p>
 <p>Example command for running clang-tidy: </p><div class="fragment"><div class="line">$ catkin build --no-deps &lt;package_name&gt; -v --make-args clang-tidy </div></div><!-- fragment --><p>For clang-format it's just the same: </p><div class="fragment"><div class="line">$ catkin build --no-deps &lt;package_name&gt; -v --make-args clang-format </div></div><!-- fragment --><h1><a class="anchor" id="Explicit"></a>
 Template Instantiation</h1>
 <p>CT relies on explicit template instantiation, that means precompilation of the library for user-specified state and control dimensions. While CT handles things slightly different, please see <a href="https://anteru.net/blog/2008/11/19/318/index.html">this post</a> to learn more about the subject. The basic idea is that for all templated class there is</p><ul>
@@ -149,7 +148,7 @@ Other guidelines</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Apr 27 2019 11:45:04 for ct by
+    <li class="footer">Generated on Sat Apr 27 2019 17:04:52 for ct by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -102,19 +102,25 @@ $(document).ready(function(){initNavTree('requirements.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#dep">Dependencies</a></li>
+<ul><li class="level1"><a href="#dep">Dependencies and building the library</a></li>
 <li class="level1"><a href="#opt_dep">Optional Dependencies and Bindings</a></li>
 </ul>
 </div>
-<div class="textblock"><p>This library is written in C++11. It is tested under Ubuntu 14.04 and 16.04 with library versions as provided in the package sources.</p>
+<div class="textblock"><ul>
+<li>Ubuntu 16.04 or 18.04</li>
+<li>a compiler with C++14 support, e.g. gcc or clang</li>
+</ul>
 <h1><a class="anchor" id="dep"></a>
-Dependencies</h1>
+Dependencies and building the library</h1>
 <ul>
-<li>C++ compiler with C++11 support (we recommend gcc-5.4.1 or greater or clang-3.5 or greater)</li>
-<li><a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen 3</a></li>
-<li><a href="http://wiki.ros.org/catkin">catkin</a> (build system, easy to switch to CMakeLists.txt where needed). We recommend using <a href="http://catkin-tools.readthedocs.io/en/latest/verbs/catkin_build.html">catkin_tools</a></li>
-<li>boost 1.54 or greater (soon optional)</li>
-<li><a href="https://github.com/ethz-asl/kindr">kindr</a>, a kinematics library for robotics, which is required for building ct_rbd. Ideally, clone the newest version into your catkin workspace: <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;$ git clone https://github.com/ethz-asl/kindr.git</div></div><!-- fragment --></li>
+<li>install ROS, please follow the steps in <a href="http://wiki.ros.org/Installation/Ubuntu">this tutorial</a> for your Linux distribution.</li>
+<li>install <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen 3</a> via <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;$ sudo apt-get update </div></div><!-- fragment --> <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;$ sudo apt-get install libeigen3-dev </div></div><!-- fragment --></li>
+<li>install the <a href="http://catkin-tools.readthedocs.io/en/latest/verbs/catkin_build.html">catkin_tools</a> build system <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;sudo sh -c &#39;echo &quot;deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main&quot; &gt; /etc/apt/sources.list.d/ros-latest.list&#39;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;wget http://packages.ros.org/ros.key -O - | sudo apt-key add -</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;sudo apt-get update</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;sudo apt-get install python-catkin-tools</div></div><!-- fragment --></li>
+<li>install boost <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;sudo apt-get install libboost-all-dev</div></div><!-- fragment --></li>
+<li>create a catkin workspace and initialize it <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;mkdir -p ~/catkin_ws/src</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;cd ~/catkin_ws</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;catkin init</div></div><!-- fragment --></li>
+<li>install the <a href="https://github.com/ethz-asl/kindr">kindr</a> library <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/catkin_ws/src</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;git clone https://github.com/ANYbotics/kindr.git</div></div><!-- fragment --></li>
+<li>finally, clone the control toolbox and build your workspace <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/catkin_ws/src</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;git clone https://github.com/ethz-adrl/control-toolbox.git</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release</div></div><!-- fragment --></li>
+<li>if you would like to run an example, build the library with <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/catkin_ws/src</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div></div><!-- fragment --> Now, try to run the examples, e.g. the optimal control and optimal filtering examples: <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/catkin_ws/src</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;rosrun ct_optcon ex_NLOC</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;rosrun ct_optcon ex_KalmanFiltering</div></div><!-- fragment --></li>
 </ul>
 <h1><a class="anchor" id="opt_dep"></a>
 Optional Dependencies and Bindings</h1>
@@ -135,7 +141,7 @@ Optional Dependencies and Bindings</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="install_guide.html">Installation</a></li>
-    <li class="footer">Generated on Sat Apr 27 2019 11:45:04 for ct by
+    <li class="footer">Generated on Sat Apr 27 2019 16:52:59 for ct by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

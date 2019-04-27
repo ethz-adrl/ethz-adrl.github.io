@@ -1,7 +1,7 @@
 var install_guide =
 [
     [ "Requirements", "requirements.html", [
-      [ "Dependencies", "requirements.html#dep", null ],
+      [ "Dependencies and building the library", "requirements.html#dep", null ],
       [ "Optional Dependencies and Bindings", "requirements.html#opt_dep", null ]
     ] ],
     [ "Compile", "install.html", [

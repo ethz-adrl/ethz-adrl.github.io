@@ -113,12 +113,11 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li class="level2"><a href="#ct_models_overview">CT Models:</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#source_code">Source Code</a></li>
 <li class="level1"><a href="#gs">How to use the Control Toolbox</a></li>
 <li class="level1"><a href="#contact">Support</a></li>
 <li class="level1"><a href="#ct_doc_acknowledgement">Acknowledgements</a><ul><li class="level2"><a href="#contribs">Contributors</a></li>
-<li class="level2"><a href="#lead_overview">Project Lead and Maintenance</a></li>
-<li class="level2"><a href="#funding">Funding</a></li>
+<li class="level2"><a href="#lead_overview">Maintenance</a></li>
+<li class="level2"><a href="#funding">Funding 2014-2018</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#licence">Licence Information</a></li>
@@ -128,7 +127,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 <div class="textblock"><h1><a class="anchor" id="ct1"></a>
 Control Toolbox</h1>
-<p>This is the ADRL Control Toolbox ('CT'), an open-source C++ library for efficient modelling, control, estimation, trajectory optimization and model predictive control. The CT is applicable to a broad class of dynamic systems, but features additional modelling tools specially designed for robotics. This page outlines its general concept, its major building blocks and highlights selected application examples.</p>
+<p>The Control Toolbox ('CT'), an open-source C++ library for efficient modelling, control, estimation, trajectory optimization and model predictive control. The CT is applicable to a broad class of dynamic systems, but features additional modelling tools specially designed for robotics. This page outlines its general concept, its major building blocks and highlights selected application examples.</p>
 <p>The library contains several tools to design and evaluate controllers, model dynamical systems and solve optimal control problems. The CT was designed with the following features in mind:</p>
 <ul>
 <li><b>Systems and dynamics</b>:<ul>
@@ -174,7 +173,7 @@ Control Toolbox</h1>
 </ul>
 </li>
 </ul>
-<p>The CT is hosted on bitbucket: <a href="https://bitbucket.org/adrlab/ct" target="_blank">https://bitbucket.org/adrlab/ct</a></p>
+<p>The CT is hosted on github: <a href="https://github.com/ethz-adrl/control-toolbox" target="_blank">https://github.com/ethz-adrl/control-toolbox</a></p>
 <h1><a class="anchor" id="ae"></a>
 Robot Application Examples</h1>
 <p>The Control Toolbox has been used for Hardware and Simulation control tasks on flying, walking and ground robots.</p>
@@ -249,17 +248,13 @@ CT Models:</h2>
 <li>Means of creating linear approximation of these models</li>
 <li><a href="../../../ct_models/doc/html/index.html">quick link to ct_models</a></li>
 </ul>
-<h1><a class="anchor" id="source_code"></a>
-Source Code</h1>
-<p>The source code is available at <a href="https://bitbucket.org/adrlab/ct" target="_blank">https://bitbucket.org/adrlab/ct</a></p>
-<p>Examples for interfacing with ROS and advanced application examples are available at <a href="https://bitbucket.org/adrlab/ct_ros/src/master/" target="_blank">ct_ros</a>.</p>
 <h1><a class="anchor" id="gs"></a>
 How to use the Control Toolbox</h1>
 <p>To get started with the control toolbox, please see <a class="el" href="getting_started.html">Getting Started</a>.</p>
 <h1><a class="anchor" id="contact"></a>
 Support</h1>
 <p>For any questions, issues or other troubleshooting please either</p><ul>
-<li>create an issue: <a href="https://bitbucket.org/adrlab/ct/issues">https://bitbucket.org/adrlab/ct/issues</a></li>
+<li>create an issue: <a href="https://github.com/ethz-adrl/control-toolbox/issues">https://github.com/ethz-adrl/control-toolbox/issues</a></li>
 <li>contact the devs: <a href="#" onclick="location.href='mai'+'lto:'+'con'+'tr'+'ol-'+'to'+'olb'+'ox'+'-de'+'v@'+'goo'+'gl'+'egr'+'ou'+'ps.'+'co'+'m'; return false;">contr<span style="display: none;">.nosp@m.</span>ol-t<span style="display: none;">.nosp@m.</span>oolbo<span style="display: none;">.nosp@m.</span>x-de<span style="display: none;">.nosp@m.</span>v@goo<span style="display: none;">.nosp@m.</span>gleg<span style="display: none;">.nosp@m.</span>roups<span style="display: none;">.nosp@m.</span>.com</a></li>
 </ul>
 <h1><a class="anchor" id="ct_doc_acknowledgement"></a>
@@ -267,8 +262,8 @@ Acknowledgements</h1>
 <h2><a class="anchor" id="contribs"></a>
 Contributors</h2>
 <ul>
-<li>Michael Neunert</li>
 <li>Markus Giftthaler</li>
+<li>Michael Neunert</li>
 <li>Markus Stäuble</li>
 <li>Farbod Farshidian</li>
 <li>Diego Pardo</li>
@@ -278,14 +273,13 @@ Contributors</h2>
 <li>Hamza Merzic</li>
 </ul>
 <h2><a class="anchor" id="lead_overview"></a>
-Project Lead and Maintenance</h2>
+Maintenance</h2>
 <ul>
-<li>Michael Neunert, neunertm (at) gmail (dot) com</li>
 <li>Markus Giftthaler, markusgft (at) gmail (dot) com</li>
 </ul>
 <h2><a class="anchor" id="funding"></a>
-Funding</h2>
-<p>This software has been developed at the <a href="http://www.adrl.ethz.ch" target="_blank">Agile &amp; Dexterous Robotics Lab</a> at <a href="http://www.ethz.ch/en" target="_blank">ETH Zurich</a>, Switzerland between 2014 and 2018. During that time, development has been made possible through financial support from the <a href="http://www.snf.ch/en/" target="_blank">Swiss National Science Foundation (SNF)</a> through a SNF Professorship award to Jonas Buchli and the National Competence Centers in Research (NCCR) <a href="https://www.nccr-robotics.ch/" target="_blank">Robotics</a> and <a href="http://www.dfab.ch/en/" target="_blank">Digital Fabrication</a>.</p>
+Funding 2014-2018</h2>
+<p>The core of this software has been developed at the <a href="http://www.adrl.ethz.ch" target="_blank">Agile &amp; Dexterous Robotics Lab</a> at <a href="http://www.ethz.ch/en" target="_blank">ETH Zurich</a>, Switzerland between 2014 and 2018. During that time, development has been made possible through financial support from the <a href="http://www.snf.ch/en/" target="_blank">Swiss National Science Foundation (SNF)</a> through a SNF Professorship award to Jonas Buchli and the National Competence Centers in Research (NCCR) <a href="https://www.nccr-robotics.ch/" target="_blank">Robotics</a> and <a href="http://www.dfab.ch/en/" target="_blank">Digital Fabrication</a>.</p>
 <h1><a class="anchor" id="licence"></a>
 Licence Information</h1>
 <p>The Control Toolbox is released under the <a href="https://choosealicense.com/licenses/bsd-2-clause/" target="_blank">BSD-2 clause license</a>. Please note the licence and notice files in the source directory.</p>
@@ -314,7 +308,7 @@ Related Publications</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Apr 27 2019 11:45:04 for ct by
+    <li class="footer">Generated on Sat Apr 27 2019 17:04:52 for ct by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
