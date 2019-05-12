@@ -1,0 +1,46 @@
+\form#0:\[ v \times^{*} I v \]
+\form#1:\[ XF \cdot I \cdot XF^T \]
+\form#2:$ w(q) = \sqrt(det(J*J')) $
+\form#3:$ J = U S V $
+\form#4:$ M \ddot{x} + C + G = S^\top \tau + J_c^\top \lambda $
+\form#5:$ \ddot{x} $
+\form#6:\[ {}_W \lambda = f(q, \dot{q}) \]
+\form#7:\[ {}_W \lambda = f(q, \dot{q}) = - k ({}_W x_z - z_{offset}) - d {}_W \dot{x} \]
+\form#8:$ {}_W x_z $
+\form#9:$ z_{offset} $
+\form#10:$ \dot{x} $
+\form#11:\[ {}_W \lambda_n = k e^{-\alpha_n {}_W x_z} \]
+\form#12:\[ {}_W \lambda_t = s({}_W x_z, \dot{x}) ~ d {}_W \dot{x}_{xy} \]
+\form#13:\[ s({}_W x_z, \dot{x}) = \frac{1}{1 + e^{{}_W x_z \alpha}} \]
+\form#14:\[ s({}_W x_z, \dot{x}) = \frac{1}{2} tanh(-\frac{1}{2} {}_W x_z \alpha) + \frac{1}{2} \]
+\form#15:\[ s({}_W x_z, \dot{x}) = - \frac{1}{2} \frac{{}_W x_z \alpha}{1 + abs(-{}_W x_z \alpha)} + \frac{1}{2} \]
+\form#16:$ \lambda = d \dot{x} $
+\form#17:\[ M \ddot{q} + C + G = S^T \tau + J_c \lambda \]
+\form#18:$ S $
+\form#19:$ {_Bx} = T_{BL} {_Lx} $
+\form#20:$ T_{BL} $
+\form#21:$ {_Lx} = T_{LB} {_Bx} $
+\form#22:$ T_{LB} $
+\form#23:$ {_EEx} = T_{EE-B} {_Bx} $
+\form#24:$ T_{EE-B} $
+\form#25:$ _iR_b $
+\form#26:$ _iv = {_iR_b} {_bv} $
+\form#27:\[ ( \theta_{joints}^\top p_{act}^\top \dot \theta{joints}^\top v_{act}^\top )^\top \]
+\form#28:$ \omega_W $
+\form#29:$ q_I $
+\form#30:$ \dot{q}_I = H \omega_W $
+\form#31:$ H $
+\form#32:$ \dot{q}_I $
+\form#33:$ dH/dq_I \omega_W $
+\form#34:$ \dot{x} = f(x,u) $
+\form#35:\[ x = [ {}_W q_B ~ {}_W p_B ~ \theta_J ~ {}_B \omega_B ~ {}_B v_B ~ \dot{\theta}_J ]^T \]
+\form#36:$ {}_W q_B $
+\form#37:$ {}_W p_B $
+\form#38:$ {}_B \omega_B $
+\form#39:$ {}_B v_B $
+\form#40:$ \theta_J $
+\form#41:$ \dot{theta}_J $
+\form#42:$ u = \tau $
+\form#43:\[ {}_B \ddot{q}_c = P M^{-1} (J^T_c \lambda + S^T \tau - G - C) \]
+\form#44:$ {}_B \ddot{q}_c = [ {}_B \dot{\omega}_B ~ {}_B \dot{v}_B ~ \ddot{\theta}_J ]^T $
+\form#45:\[ \begin{aligned} \dot{x} &= [ {}_W \dot{q}_B ~ {}_W \dot{p}_B ~ \dot{\theta}_J ~ {}_B \dot{\omega}_B ~ {}_B \dot{v}_B ~ \ddot{\theta}_J ]^T \\ &= [ H_{WB} {}_B \omega_B ~ R_{WB} {}_B v_B ~ \dot{\theta}_J ~ P M^{-1} (J^T_c \lambda + S^T \tau - G - C)]^T \end{aligned} \]

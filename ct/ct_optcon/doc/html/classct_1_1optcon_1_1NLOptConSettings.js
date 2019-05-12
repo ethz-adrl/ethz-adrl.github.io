@@ -1,0 +1,45 @@
+var classct_1_1optcon_1_1NLOptConSettings =
+[
+    [ "APPROXIMATION", "classct_1_1optcon_1_1NLOptConSettings.html#a468e2d3178b71a953bc6d20c0b10fb56", null ],
+    [ "NLOCP_ALGORITHM", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678", [
+      [ "GNMS", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678a51d49d9c6189d4cc2aac6f9d1a2f276d", null ],
+      [ "ILQR", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678af7180a1e0ef88d237cc38ea1133c4ab1", null ],
+      [ "NUM_TYPES", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678a86b16913975fd29792f181d15564d55a", null ]
+    ] ],
+    [ "LQOCP_SOLVER", "classct_1_1optcon_1_1NLOptConSettings.html#a4597ecd15ed2a17f6fe352489662aa10", [
+      [ "GNRICCATI_SOLVER", "classct_1_1optcon_1_1NLOptConSettings.html#a4597ecd15ed2a17f6fe352489662aa10ae0196bc20d0a9d347c0e15fd92d7f573", null ],
+      [ "HPIPM_SOLVER", "classct_1_1optcon_1_1NLOptConSettings.html#a4597ecd15ed2a17f6fe352489662aa10a1210143ff4945803fc79c7c197917c9d", null ]
+    ] ],
+    [ "NLOptConSettings", "classct_1_1optcon_1_1NLOptConSettings.html#ae6c25f1288cabc1026a3c442e32774ed", null ],
+    [ "computeK", "classct_1_1optcon_1_1NLOptConSettings.html#acd0c8a554aeb1f62d9b2583fe1aeba22", null ],
+    [ "getSimulationTimestep", "classct_1_1optcon_1_1NLOptConSettings.html#af204c0a5d1696d01b4f4b02f9757a0e3", null ],
+    [ "print", "classct_1_1optcon_1_1NLOptConSettings.html#a84e0c20130b113d72c8bd4652d978e5b", null ],
+    [ "parametersOk", "classct_1_1optcon_1_1NLOptConSettings.html#ace70f07da378a1d76b42aa81b8c96038", null ],
+    [ "load", "classct_1_1optcon_1_1NLOptConSettings.html#add42b51ffc39ac32b4fd43283e962666", null ],
+    [ "integrator", "classct_1_1optcon_1_1NLOptConSettings.html#ac9b068e4dbb91fbdb9bfb01c6fe7826d", null ],
+    [ "discretization", "classct_1_1optcon_1_1NLOptConSettings.html#a762b5ea91f52d8d56fe88783a278d6e7", null ],
+    [ "timeVaryingDiscretization", "classct_1_1optcon_1_1NLOptConSettings.html#a59730f4470d275143211a52a93a571bc", null ],
+    [ "nlocp_algorithm", "classct_1_1optcon_1_1NLOptConSettings.html#aa4ca90637e4f1542374257d737b83750", null ],
+    [ "lqocp_solver", "classct_1_1optcon_1_1NLOptConSettings.html#ae5af71e7649f3c11ac62883f27dc5201", null ],
+    [ "loggingPrefix", "classct_1_1optcon_1_1NLOptConSettings.html#a10053a0d99628fb7711e9983f3e15cd7", null ],
+    [ "closedLoopShooting", "classct_1_1optcon_1_1NLOptConSettings.html#af91627395c37307e487eb3cbffcaaa07", null ],
+    [ "epsilon", "classct_1_1optcon_1_1NLOptConSettings.html#ab8956dcba480743f895848bddc91dada", null ],
+    [ "dt", "classct_1_1optcon_1_1NLOptConSettings.html#a74f1f08630a1149c1b406d8094ab3b10", null ],
+    [ "K_sim", "classct_1_1optcon_1_1NLOptConSettings.html#ac0828f6329e26db9dbf13c0fbf3a92d6", null ],
+    [ "K_shot", "classct_1_1optcon_1_1NLOptConSettings.html#a40227155f577a1654421816725a1f7b9", null ],
+    [ "min_cost_improvement", "classct_1_1optcon_1_1NLOptConSettings.html#a050974b82afb50973d0ff4a5c1c50f6c", null ],
+    [ "maxDefectSum", "classct_1_1optcon_1_1NLOptConSettings.html#af902d8905d4fb0a7e825fdca55afcc6c", null ],
+    [ "meritFunctionRho", "classct_1_1optcon_1_1NLOptConSettings.html#a7bf948dda445f24666f8caba4cc915b8", null ],
+    [ "meritFunctionRhoConstraints", "classct_1_1optcon_1_1NLOptConSettings.html#a482c6a625bb092825a0b3d9bdf3db653", null ],
+    [ "max_iterations", "classct_1_1optcon_1_1NLOptConSettings.html#adfade394151391bcc6534eb5f596e59d", null ],
+    [ "fixedHessianCorrection", "classct_1_1optcon_1_1NLOptConSettings.html#a9d2cd067a6fa5e61acd71b5889e09537", null ],
+    [ "recordSmallestEigenvalue", "classct_1_1optcon_1_1NLOptConSettings.html#a6112e8d121ede176cb3624d09d379b77", null ],
+    [ "nThreads", "classct_1_1optcon_1_1NLOptConSettings.html#a3316da3e902865165c94a65562f5807d", null ],
+    [ "nThreadsEigen", "classct_1_1optcon_1_1NLOptConSettings.html#a62aa4f08bcf2363b1234408162c18efb", null ],
+    [ "lineSearchSettings", "classct_1_1optcon_1_1NLOptConSettings.html#afb6ef189f0a5105d803a1a5f39bcd40f", null ],
+    [ "lqoc_solver_settings", "classct_1_1optcon_1_1NLOptConSettings.html#a85ab3df742aa75a6e1c2d85b1898e6a6", null ],
+    [ "debugPrint", "classct_1_1optcon_1_1NLOptConSettings.html#affddd763257dc0c8afc9684c142a6b35", null ],
+    [ "printSummary", "classct_1_1optcon_1_1NLOptConSettings.html#a2b13e857c742d6b483031f4f0f02ec83", null ],
+    [ "useSensitivityIntegrator", "classct_1_1optcon_1_1NLOptConSettings.html#a642cf2fea2e9574b00e45678cff3968d", null ],
+    [ "logToMatlab", "classct_1_1optcon_1_1NLOptConSettings.html#ad9ae9ddabefa35aa332ac14f0a6ec863", null ]
+];

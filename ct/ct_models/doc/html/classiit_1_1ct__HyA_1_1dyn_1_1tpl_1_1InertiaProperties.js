@@ -1,0 +1,27 @@
+var classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties =
+[
+    [ "IMatrix", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a99047d3d882798de3f93a76397aad7a9", null ],
+    [ "Vec3d", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#afb89be052e49780722bde0f4010695b4", null ],
+    [ "InertiaProperties", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a972afa13cf2e8adf90173ab6780dcbf8", null ],
+    [ "~InertiaProperties", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#aa5daf9c263aa57ea979a14558921b96d", null ],
+    [ "getTensor_Shoulder_AA", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a9684f4cc84d4e756812a7ec2d1949f5e", null ],
+    [ "getTensor_Shoulder_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#ab58f9c1b114a57a433d217407b1960c2", null ],
+    [ "getTensor_Humerus_R", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a38c73cae4bd0518d8ba3b5d17bda3506", null ],
+    [ "getTensor_Elbow_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a90e3295a31d16ef33af3c0bf1a57d468", null ],
+    [ "getTensor_Wrist_R", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a2c05ce7d66b798faab4425801bd01eaf", null ],
+    [ "getTensor_Wrist_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a7474e67f9db64d8226ce61573a91f859", null ],
+    [ "getMass_Shoulder_AA", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#af4a28ef269f75808db817fa4ffd4f191", null ],
+    [ "getMass_Shoulder_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#ad2484ad28d289db66ce111fb120caecb", null ],
+    [ "getMass_Humerus_R", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a6d2b8840b7607ea2e411a06622bd3d42", null ],
+    [ "getMass_Elbow_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a3beb5ac3fa5bc677a44da00fc17ac65c", null ],
+    [ "getMass_Wrist_R", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#ae4e271d1a0bff4b1a25faaba3013f0f0", null ],
+    [ "getMass_Wrist_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#afeaa2e13cb9cb960e1a4d5bddd9f5e46", null ],
+    [ "getCOM_Shoulder_AA", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a867fa11c181d1d15bfe01a5f100a7709", null ],
+    [ "getCOM_Shoulder_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a308acd31a244c6b742db88a85afb7721", null ],
+    [ "getCOM_Humerus_R", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#aafb2dd9f300355948332f55f6d255bcc", null ],
+    [ "getCOM_Elbow_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a3136d2e14c05cb556b626d9217eeb0a5", null ],
+    [ "getCOM_Wrist_R", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a722bae2afb3a1408450f6b5e0106788b", null ],
+    [ "getCOM_Wrist_FE", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#ac77dcb43f34d6675d9d3656dc19fe497", null ],
+    [ "getTotalMass", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#aaa4dc81487849448a672d496e7fdcf3c", null ],
+    [ "SCALAR", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1InertiaProperties.html#a7056568ca1e4378ef08acfe129fb41fe", null ]
+];

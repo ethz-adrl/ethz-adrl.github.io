@@ -1,0 +1,67 @@
+\form#0:\[ f(x) = exp(\alpha(x-ub)) + exp(\alpha(lb-x)) \]
+\form#1:\[ \alpha > 0 \]
+\form#2:\[ M = 2.5 \cdot \begin{pmatrix} 10 & 0.0 & 0.0 \\ 0.0 & 2.0 & 0.0 \\ 1.0 & 0.0 & 0.0 \end{pmatrix} = \begin{pmatrix} 25 & 0.0 & 0.0 \\ 0.0 & 50.0 & 0.0 \\ 25.0 & 0.0 & 0.0 \end{pmatrix} \]
+\form#3:\[ u(x) = u_{ff} + K (x - x_{ref}) \]
+\form#4:\[ u(x,t) = -k_p (x-x_d) - k_d (\dot{x} - \dot{x}_d) - k_i \int_0^t (x-x_d) dt \]
+\form#5:\[ u_{min} \leq u(x,t) \leq u_{max} \]
+\form#6:$\dot{x}$
+\form#7:\[ \begin{aligned} u(t) \mapsto \begin{cases} 0 : & t < t_{step} \\ g : & t \ge t_{step} \end{cases} \end{aligned} \]
+\form#8:$ g $
+\form#9:$ t_{step} $
+\form#10:\[ u(x,t) = u_{ff}(t) + K(t) (x - x_{ref}) \]
+\form#11:\[ u(x,n) = u_{ff}[n] + K[n] (x - x_{ref}) \]
+\form#12:$ u_{ff} $
+\form#13:$ K(t) $
+\form#14:$ ax + by + cz = d $
+\form#15:$ \begin{bmatrix} a & b & c & d \end{bmatrix} $
+\form#16:\[ \dot{x} = f(x,t) \]
+\form#17:$ J(x_s) = \frac{df}{dx} |_{x=x_s} $
+\form#18:$ y = f(x) $
+\form#19:\[ \dot{x} = f(x,u,t) \]
+\form#20:$ x(t) $
+\form#21:$ u(t) $
+\form#22:$ t $
+\form#23:$ u = g(x,t) $
+\form#24:\[ \dot{x} = f(x(t),u(x,t),t) = g(x,t) \]
+\form#25:$ \dot{x} = f(x,u,t) $
+\form#26:$ x = x_s $
+\form#27:$ u = u_s $
+\form#28:\[ \dot{x} = A x + B u \]
+\form#29:\[ \begin{aligned} A &= \frac{df}{dx} |_{x=x_s, u=u_s} \\ B &= \frac{df}{du} |_{x=x_s, u=u_s} \end{aligned} \]
+\form#30:$ x=x_s $
+\form#31:$ u=u_s $
+\form#32:\[ A = \frac{df}{dx} |_{x=x_s, u=u_s} \]
+\form#33:\[ B = \frac{df}{du} |_{x=x_s, u=u_s} \]
+\form#34:\[ \dot{x} = Ax + Bu \]
+\form#35:\[ \begin{aligned} \dot{x} &= Ax + Bu \\ y &= Cx + Du \end{aligned} \]
+\form#36:$ \dot{x} = Ax + Bu $
+\form#37:$ y = Cx + Du $
+\form#38:\[ A = \begin{bmatrix} 0 & I \\ ... & ... \end{bmatrix} \]
+\form#39:\[ x = [p ~ \dot{p}]^T \]
+\form#40:\[ f(x,u,t) = \dot{x} = [\dot{p} ~ \ddot{p}]^T = \begin{bmatrix} \dot{p} \\ g_{dc} \omega^2_{n} u - 2.0 \zeta \omega_n \dot{p} - \omega^2_{n} p; \end{bmatrix} \]
+\form#41:$ g_{dc} $
+\form#42:\[ \omega_n = \sqrt{\frac{k}{m}} \]
+\form#43:\[ \zeta = \frac{d}{2 \sqrt{m k}} \]
+\form#44:$ m $
+\form#45:$ k $
+\form#46:$ d $
+\form#47:$ w_n^2 $
+\form#48:\[ \dot{x} = f_{i}(x,u,t) \]
+\form#49:$ f_{i} $
+\form#50:$ \dot{x} = f(x,t) $
+\form#51:\[ x_{n+1} = f(x_n,u_n,n) \]
+\form#52:$ x_{n} $
+\form#53:$ u_{n} $
+\form#54:$ n $
+\form#55:$ u_n = g(x_n,n) $
+\form#56:\[ x_{n+1} = f(x_n,u_n(x_n,n),n) = g(x_n,n) \]
+\form#57:$ x_{n+1} = f(x_n, n) $
+\form#58:$ x_{n+1} = f(x_n, u_n, n) $
+\form#59:\[ x_{n+1} = Ax_n + Bu_n \]
+\form#60:$ x[n+1] = f(x[n],u[n],n) $
+\form#61:\[ x[n+1] = A x[n] + B u[n] \]
+\form#62:\[ x_{n+1} = A_{i}x_n + B_{i}u_n \]
+\form#63:\[ x_{n+1} = f_{i}(x_n,u_n,n) \]
+\form#64:$ f(x(t),t,u(t),\dot{x(t)}) $
+\form#65:$ f(x[n],n,u[n],x[n+1]) $
+\form#66:\[ B = \frac{df}{dx} |_{x=x_s, u=u_s} \]
