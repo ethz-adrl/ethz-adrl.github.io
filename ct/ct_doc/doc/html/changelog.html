@@ -46,10 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
-      <li><a href="../../../ct_core/doc/html/index.html"><span>Core&#160;module</span></a></li>
-      <li><a href="../../../ct_optcon/doc/html/index.html"><span>Optimal&#160;Control</span></a></li>
-      <li><a href="../../../ct_rbd/doc/html/index.html"><span>Robot&#160;Module</span></a></li>
-      <li><a href="../../../ct_models/doc/html/index.html"><span>Models</span></a></li>
       <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,7 +100,8 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#cl_v30">Version 3.0</a></li>
+<ul><li class="level1"><a href="#cl_v301">Version 3.0.1</a></li>
+<li class="level1"><a href="#cl_v300">Version 3.0.0</a></li>
 <li class="level1"><a href="#cl_v23">Version 2.3</a></li>
 <li class="level1"><a href="#cl_v22">Version 2.2</a></li>
 <li class="level1"><a href="#cl_v21">Version 2.1</a></li>
@@ -112,11 +109,21 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 <li class="level1"><a href="#cl_v1">Version 1.0</a></li>
 </ul>
 </div>
-<div class="textblock"><p>For a complete list of changes, we encourage you to check out our git repository at <a href="https://bitbucket.org/adrlab/ct">https://bitbucket.org/adrlab/ct</a></p>
-<h1><a class="anchor" id="cl_v30"></a>
-Version 3.0</h1>
+<div class="textblock"><p>For a complete list of changes, we encourage you to check out our git repository at <a href="https://github.com/ethz-adrl/control-toolbox">https://github.com/ethz-adrl/control-toolbox</a></p>
+<h1><a class="anchor" id="cl_v301"></a>
+Version 3.0.1</h1>
+<ul>
+<li>enabled compatibility with pure cmake (no catkin or ROS required anymore)</li>
+<li>fixed bug in explicit template prespecification</li>
+<li>fixed bug in exporting dependencies on external solvers</li>
+<li>default linear solver for NLPs is now a non-commercial one</li>
+</ul>
+<h1><a class="anchor" id="cl_v300"></a>
+Version 3.0.0</h1>
 <ul>
 <li>cleaned up the state-estimation headers and fixed bugs in disturbance estimator</li>
+<li>renamed a costfunction-headers to avoid naming conflicts when unzipping on windows.</li>
+<li>migrating to C++14 minimal requirement</li>
 <li>migrated to github</li>
 </ul>
 <h1><a class="anchor" id="cl_v23"></a>
@@ -163,7 +170,7 @@ Version 1.0</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun May 12 2019 22:19:05 by
+    <li class="footer">Generated on Thu May 16 2019 21:19:44 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

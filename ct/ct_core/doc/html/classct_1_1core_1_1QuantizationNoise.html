@@ -133,11 +133,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a019f03d94fd5bd3d9ba7fbce8ab9b272"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a019f03d94fd5bd3d9ba7fbce8ab9b272">QuantizationNoise</a> (double bias=0.0, double quantizationInterval=1.0, <a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a349d32a99136ee82347a9120468ddaa5">QuantizationMethod</a> method=<a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a349d32a99136ee82347a9120468ddaa5a5164c4a261840adbab559012ebbb9587">FLOOR</a>)</td></tr>
 <tr class="memdesc:a019f03d94fd5bd3d9ba7fbce8ab9b272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a019f03d94fd5bd3d9ba7fbce8ab9b272">More...</a><br /></td></tr>
 <tr class="separator:a019f03d94fd5bd3d9ba7fbce8ab9b272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6058e7e6514c7fc53c7229ce6ffe5015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a6058e7e6514c7fc53c7229ce6ffe5015">noisify</a> (double &amp;value, size_t index=0)</td></tr>
+<tr class="memitem:a6058e7e6514c7fc53c7229ce6ffe5015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a6058e7e6514c7fc53c7229ce6ffe5015">noisify</a> (double &amp;<a class="el" href="gmock-matchers__test_8cc.html#a337b8a670efc0b086ad3af163f3121b6">value</a>, size_t index=0)</td></tr>
 <tr class="memdesc:a6058e7e6514c7fc53c7229ce6ffe5015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies quantization to a value.  <a href="#a6058e7e6514c7fc53c7229ce6ffe5015">More...</a><br /></td></tr>
 <tr class="separator:a6058e7e6514c7fc53c7229ce6ffe5015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecf3a13bb68e78254eae895f6c5fbd1c"><td class="memTemplParams" colspan="2">template&lt;size_t size&gt; </td></tr>
-<tr class="memitem:aecf3a13bb68e78254eae895f6c5fbd1c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html#aecf3a13bb68e78254eae895f6c5fbd1c">noisify</a> (Eigen::Matrix&lt; double, size, 1 &gt; &amp;value)</td></tr>
+<tr class="memitem:aecf3a13bb68e78254eae895f6c5fbd1c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html#aecf3a13bb68e78254eae895f6c5fbd1c">noisify</a> (Eigen::Matrix&lt; double, size, 1 &gt; &amp;<a class="el" href="gmock-matchers__test_8cc.html#a337b8a670efc0b086ad3af163f3121b6">value</a>)</td></tr>
 <tr class="memdesc:aecf3a13bb68e78254eae895f6c5fbd1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies quantization to a vector.  <a href="#aecf3a13bb68e78254eae895f6c5fbd1c">More...</a><br /></td></tr>
 <tr class="separator:aecf3a13bb68e78254eae895f6c5fbd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe45be1c0f6b49f9f6d29842464455f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a8fe45be1c0f6b49f9f6d29842464455f">reset</a> ()</td></tr>
@@ -147,7 +147,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Quantization of data. </p>
 <p>This class provides basic functionality to simulate quantization of (sensor) data. Data input can be either rounded down or rounded to a given quantization interval. It tracks the rest of the quantization for the subsequent call </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="NoiseTest_8cpp-example.html#_a4">NoiseTest.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="NoiseTest_8cpp-example.html#_a5">NoiseTest.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a349d32a99136ee82347a9120468ddaa5"></a>
 <div class="memitem">
@@ -263,7 +263,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="NoiseTest_8cpp-example.html#a5">NoiseTest.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="NoiseTest_8cpp-example.html#a6">NoiseTest.cpp</a>.</dd>
 </dl>
 <p>References <a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a349d32a99136ee82347a9120468ddaa5a5164c4a261840adbab559012ebbb9587">FLOOR</a>, and <a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a349d32a99136ee82347a9120468ddaa5a1f5a4c948aa1c2f2cbcafa33236c87af">ROUND</a>.</p>
 
@@ -303,7 +303,7 @@ template&lt;size_t size&gt; </div>
   </dd>
 </dl>
 
-<p>References <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_optcon.tag:../../../ct_optcon/doc/html/" href="../../../ct_optcon/doc/html/mpc__unittest__plotting_8m.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, and <a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a6058e7e6514c7fc53c7229ce6ffe5015">noisify()</a>.</p>
+<p>References <a class="el" href="gmock-matchers__test_8cc.html#acb559820d9ca11295b4500f179ef6392">i</a>, <a class="el" href="classct_1_1core_1_1QuantizationNoise.html#a6058e7e6514c7fc53c7229ce6ffe5015">noisify()</a>, and <a class="el" href="gmock-matchers__test_8cc.html#a337b8a670efc0b086ad3af163f3121b6">value</a>.</p>
 
 </div>
 </div>
@@ -342,7 +342,7 @@ template&lt;size_t size&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacect.html">ct</a></li><li class="navelem"><a class="el" href="namespacect_1_1core.html">core</a></li><li class="navelem"><a class="el" href="classct_1_1core_1_1QuantizationNoise.html">QuantizationNoise</a></li>
-    <li class="footer">Generated on Sun May 12 2019 22:18:43 by
+    <li class="footer">Generated on Thu May 16 2019 21:19:02 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

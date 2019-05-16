@@ -46,10 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
-      <li><a href="../../../ct_core/doc/html/index.html"><span>Core&#160;module</span></a></li>
-      <li><a href="../../../ct_optcon/doc/html/index.html"><span>Optimal&#160;Control</span></a></li>
-      <li><a href="../../../ct_rbd/doc/html/index.html"><span>Robot&#160;Module</span></a></li>
-      <li><a href="../../../ct_models/doc/html/index.html"><span>Models</span></a></li>
       <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,11 +101,14 @@ $(document).ready(function(){initNavTree('optcon_tutorials.html','');});
 <div class="contents">
 <div class="textblock"><p>In this tutorial we will walk you through implementing several Optimal Controllers for your system, including a basic LQR controller, a Nonlinear Optimal Controller (NLOC), a Nonlinear Model Predictive Controller (NMPC) as well as Direct Multiple Shooting (DMS).</p><ul>
 <li><a class="el" href="optcon_tut_lqr.html">LQR Control of a Damped Oscillator</a></li>
-<li><a class="el" href="optcon_tut_nloc.html">NLOC of a Damped Oscillator</a></li>
+<li><a class="el" href="optcon_tut_nloc.html">Optimal control of a Damped Oscillator</a></li>
 <li><a class="el" href="optcon_tut_nloc_box_constrained.html">Box-constrained nonlinear Optimal Control</a></li>
 <li><a class="el" href="optcon_tut_nloc_gen_constrained.html">Generally-constrained nonlinear Optimal Control</a></li>
-<li><a class="el" href="optcon_tut_mpc.html">NLOC-MPC of a Damped Oscillator</a></li>
-<li><a class="el" href="optcon_tut_dms.html">Classical, Constrained Direct Multiple Shooting for a Damped Oscillator</a> </li>
+<li><a class="el" href="optcon_tut_mpc.html">Model Predictive Control for a Damped Oscillator</a></li>
+<li><a class="el" href="optcon_tut_dms.html">Classical, Constrained Direct Multiple Shooting for a Damped Oscillator</a></li>
+<li><a class="el" href="optcon_tut_nlp.html">Simple Examples for Nonlinear Programming</a></li>
+<li><a class="el" href="optcon_tut_ekf.html">Extended Kalman Filtering</a></li>
+<li><a class="el" href="optcon_tut_disturbance_ekf.html">Extended Kalman Filter as Disturbance Observer</a> </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -117,7 +116,7 @@ $(document).ready(function(){initNavTree('optcon_tutorials.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="getting_started.html">Getting Started</a></li>
-    <li class="footer">Generated on Sun May 12 2019 22:19:05 by
+    <li class="footer">Generated on Thu May 16 2019 21:19:44 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

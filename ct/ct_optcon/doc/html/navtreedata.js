@@ -36,7 +36,7 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -55,8 +55,8 @@ var NAVTREEINDEX =
 "classct_1_1optcon_1_1NLOCBackendBase.html#a36d3812f026ecdfae98626c565007e97",
 "classct_1_1optcon_1_1OptConProblemBase.html#aa0137f6d92a1db113cbe7feae48712c2",
 "classct_1_1optcon_1_1example_1_1ConstraintTerm2D.html#a7c9a953e6e820d72fc8af7a71575e4dc",
-"dir_989499fad0d896afb841a449eac4d023.html",
-"optcon_8h.html"
+"dir_83de5b8307ab875c6a5ce6efc206005f.html",
+"namespacemembers_type.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

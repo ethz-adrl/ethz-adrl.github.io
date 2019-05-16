@@ -46,10 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
-      <li><a href="../../../ct_core/doc/html/index.html"><span>Core&#160;module</span></a></li>
-      <li><a href="../../../ct_optcon/doc/html/index.html"><span>Optimal&#160;Control</span></a></li>
-      <li><a href="../../../ct_rbd/doc/html/index.html"><span>Robot&#160;Module</span></a></li>
-      <li><a href="../../../ct_models/doc/html/index.html"><span>Models</span></a></li>
       <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -125,7 +121,7 @@ Simulate the forward dynamics</h1>
 <div class="fragment"><div class="line">core::Integrator&lt;STATE_DIM&gt; integrator(dynamics, <a class="codeRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_core.tag:../../ct_core/doc/html/" href="../../ct_core/doc/html/namespacect_1_1core.html#aa25427d38889f53b3f0b254e647f7319a8b3bb701627d4e7a508a0aab0575cc61">ct::core::RK4</a>);</div><div class="line"></div><div class="line">core::StateVector&lt;12&gt; state;</div><div class="line">state.setZero();</div><div class="line"></div><div class="line">integrator.integrate_n_steps(state, 0, 1000, 0.001);</div></div><!-- fragment --><p>While we are using a regular integrator in the example above, all ct/rbd models can also be used with our ct::core::SymplecticIntegrator which allows for bigger step sizes.</p>
 <h1><a class="anchor" id="rbd_tut_control"></a>
 Control and Linearization</h1>
-<p>Now that our robot is a <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_core.tag:../../ct_core/doc/html/" href="../../ct_core/doc/html/classct_1_1core_1_1ControlledSystem.html">ct::core::ControlledSystem</a> we can throw all sorts of great control algorithms at it! If we want to compute an LQR controller for the forward dynamics, you can simply follow our tutorial on <a class="el" href="optcon_tut_lqr.html">LQR Control of a Damped Oscillator</a>. Or maybe even want throw an MPC controller at it (see <a class="el" href="optcon_tut_mpc.html">NLOC-MPC of a Damped Oscillator</a>)? Do not forget to check out <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_rbd.tag:../../../ct_rbd/doc/html/" href="../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseNLOC.html">ct::rbd::FixBaseNLOC</a> and <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_rbd.tag:../../../ct_rbd/doc/html/" href="../../../ct_rbd/doc/html/classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html">ct::rbd::FloatingBaseNLOCContactModel</a> to quickly generate a Nonlinear Optimal Control setup for your robot!</p>
+<p>Now that our robot is a <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_core.tag:../../ct_core/doc/html/" href="../../ct_core/doc/html/classct_1_1core_1_1ControlledSystem.html">ct::core::ControlledSystem</a> we can throw all sorts of great control algorithms at it! If we want to compute an LQR controller for the forward dynamics, you can simply follow our tutorial on <a class="el" href="optcon_tut_lqr.html">LQR Control of a Damped Oscillator</a>. Or maybe even want throw an MPC controller at it (see <a class="el" href="optcon_tut_mpc.html">Model Predictive Control for a Damped Oscillator</a>)? Do not forget to check out <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_rbd.tag:../../../ct_rbd/doc/html/" href="../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseNLOC.html">ct::rbd::FixBaseNLOC</a> and <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_rbd.tag:../../../ct_rbd/doc/html/" href="../../../ct_rbd/doc/html/classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html">ct::rbd::FloatingBaseNLOCContactModel</a> to quickly generate a Nonlinear Optimal Control setup for your robot!</p>
 <p>In most cases we need the linearization for our system. Here we have the same choices as indicated in <a class="el" href="core_tut_linearization.html">Derivatives/Jacobian/Linearization Tutorial</a>. The same characteristics apply and for best accuracy and speed we recommend using Auto-Differentiation with code generation. However, for quick prototyping numerical differentiation can be appealing. Due to the special structure of Rigid Body Dynamics systems, we can compute a slightly better linearization which mixes analytic and numerical derivatives to improve accuracy and speed over pure numerical derivatives. This class is called <a class="elRef" doxygen="/home/adrl/code/src/control-toolbox/ct_doc/doc/tags/ct_rbd.tag:../../../ct_rbd/doc/html/" href="../../../ct_rbd/doc/html/classct_1_1rbd_1_1RbdLinearizer.html">ct::rbd::RbdLinearizer</a>. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +129,7 @@ Control and Linearization</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="getting_started.html">Getting Started</a></li><li class="navelem"><a class="el" href="rbd_tutorials.html">ct rbd Tutorials</a></li>
-    <li class="footer">Generated on Sun May 12 2019 22:19:05 by
+    <li class="footer">Generated on Thu May 16 2019 21:19:44 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

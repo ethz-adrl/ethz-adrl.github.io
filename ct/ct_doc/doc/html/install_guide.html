@@ -46,10 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Home</span></a></li>
-      <li><a href="../../../ct_core/doc/html/index.html"><span>Core&#160;module</span></a></li>
-      <li><a href="../../../ct_optcon/doc/html/index.html"><span>Optimal&#160;Control</span></a></li>
-      <li><a href="../../../ct_rbd/doc/html/index.html"><span>Robot&#160;Module</span></a></li>
-      <li><a href="../../../ct_models/doc/html/index.html"><span>Models</span></a></li>
       <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,23 +100,39 @@ $(document).ready(function(){initNavTree('install_guide.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#req">Requirements:</a></li>
-<li class="level1"><a href="#dep">Get Required Dependencies</a></li>
-<li class="level1"><a href="#build">Building the CT</a></li>
+<ul><li class="level1"><a href="#req">Requirements:</a><ul><li class="level2"><a href="#req-system">System Requirements</a></li>
+<li class="level2"><a href="#req-dependencies">Required Dependencies</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#build">Building the CT</a><ul><li class="level2"><a href="#build-ros">For ROS or catkin users</a><ul><li class="level3"><a href="#build-ros-main">Compiling the Library</a></li>
+<li class="level3"><a href="#build-ros-examples">Building and running examples</a></li>
+<li class="level3"><a href="#build-ros-tests">Building and running the unit tests</a></li>
+<li class="level3"><a href="#build-ros-doc">Building the documentation</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#build-cmake">Using plain cmake.</a><ul><li class="level3"><a href="#build-cmake-main">Compiling the Library</a></li>
+<li class="level3"><a href="#build-cmake-examples">Building and running examples</a></li>
+<li class="level3"><a href="#build-cmake-tests">Building and running the unit tests</a></li>
+<li class="level3"><a href="#build-cmake-doc">Building the documentation</a></li>
+<li class="level3"><a href="#build-cmake-cleanup">Clean up</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="level1"><a href="#opt_dep">Optional Dependencies and Bindings</a></li>
 <li class="level1"><a href="#Additional">build arguments</a></li>
-<li class="level1"><a href="#build_doc">Build this Documentation</a></li>
-<li class="level1"><a href="#run_tests">Run Unit Tests</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="req"></a>
 Requirements:</h1>
+<h2><a class="anchor" id="req-system"></a>
+System Requirements</h2>
 <ul>
 <li>Ubuntu 16.04 or 18.04</li>
 <li>a compiler with C++14 support, e.g. gcc or clang</li>
 </ul>
-<h1><a class="anchor" id="dep"></a>
-Get Required Dependencies</h1>
+<h2><a class="anchor" id="req-dependencies"></a>
+Required Dependencies</h2>
 <ul>
 <li>install <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen 3</a> via <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;sudo apt-get update </div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;sudo apt-get install libeigen3-dev </div></div><!-- fragment --></li>
 <li>install boost <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;sudo apt-get install libboost-all-dev</div></div><!-- fragment --></li>
@@ -129,17 +141,31 @@ Get Required Dependencies</h1>
 </ul>
 <h1><a class="anchor" id="build"></a>
 Building the CT</h1>
-<ul>
-<li>VARIANT A, if you are a ROS-user: build the CT using catkin tools <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/your_workspace</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div></div><!-- fragment --><ul>
-<li>Now, try to run the examples, e.g. the optimal control and optimal filtering examples: <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/catkin_ws/src</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;rosrun ct_optcon ex_NLOC</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;rosrun ct_optcon ex_KalmanFiltering</div></div><!-- fragment --></li>
-</ul>
-</li>
-<li>VARIANT B, if you prefer plain cmake. First, make sure you build and install the kindr-library, see <a href="https://github.com/ANYbotics/kindr#building">kindr</a> here. Then go to the CT and run the build script: <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ../control-toolbox/ct</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;chmod 775 build_ct.sh</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;./build_ct.sh -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div></div><!-- fragment --><ul>
-<li>This creates a /build subdirectory in every single CT-project, where the examples will be located.</li>
-</ul>
-</li>
-</ul>
-<h1><a class="anchor" id="opt_dep"></a>
+<h2><a class="anchor" id="build-ros"></a>
+For ROS or catkin users</h2>
+<h3><a class="anchor" id="build-ros-main"></a>
+Compiling the Library</h3>
+<p>It is assumed that you have a valid catkin-workspace set up, e.g. using <a href="https://catkin-tools.readthedocs.io/en/latest/">catkin tools</a>. Then, execute the following steps. </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/your_workspace</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release</div></div><!-- fragment --><h3><a class="anchor" id="build-ros-examples"></a>
+Building and running examples</h3>
+<p>To build an run the examples, e.g. the optimal control and optimal filtering examples: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/your_workspace</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;source devel/setup.bash</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;rosrun ct_optcon ex_NLOC</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;rosrun ct_optcon ex_KalmanFiltering</div></div><!-- fragment --><h3><a class="anchor" id="build-ros-tests"></a>
+Building and running the unit tests</h3>
+<p>To build an run the unit tests: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd ~/your_workspace</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;catkin build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=true</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;catkin run_tests</div></div><!-- fragment --><h3><a class="anchor" id="build-ros-doc"></a>
+Building the documentation</h3>
+<p>To build the documentation execute </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;catkin build ct_doc -v --make-args doc</div></div><!-- fragment --><p> This will build the documentation. The index.html can be found in ct_doc/doc/html</p>
+<h2><a class="anchor" id="build-cmake"></a>
+Using plain cmake.</h2>
+<h3><a class="anchor" id="build-cmake-main"></a>
+Compiling the Library</h3>
+<p>First, make sure you build and install the kindr-library, see <a href="https://github.com/ANYbotics/kindr#building">here</a>. Then go to your local clone of the control toolbox and run the build script: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd your_workspace/control-toolbox/ct</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;chmod 775 build_ct.sh</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;./build_ct.sh -DCMAKE_BUILD_TYPE=Release</div></div><!-- fragment --><h3><a class="anchor" id="build-cmake-examples"></a>
+Building and running examples</h3>
+<p>Then go to your local clone of the control toolbox and run the build script with the following flags. </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd your_workspace/control-toolbox/ct</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;./build_ct.sh -DCMAKE_BUILD_TYPE=Release -DBUILD_EXAMPLES=true</div></div><!-- fragment --><p> This creates a /build subdirectory in every single CT-project, where the examples will be located. For running the nonlinear optimal control or filtering examples, for instance, go to your workspace an run </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;./src/control-toolbox/ct_optcon/build/examples/ex_NLOC</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;./src/control-toolbox/ct_optcon/build/examples/ex_KalmanFiltering</div></div><!-- fragment --><h3><a class="anchor" id="build-cmake-tests"></a>
+Building and running the unit tests</h3>
+<p>To build an run the unit tests: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd your_workspace/control-toolbox/ct</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;./build_ct.sh -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=true</div></div><!-- fragment --><h3><a class="anchor" id="build-cmake-doc"></a>
+Building the documentation</h3>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd your_workspace/control-toolbox/ct</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;chmod 775 build_doc.sh</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;./build_doc.sh</div></div><!-- fragment --><p> The index.html can be found in ct_doc/doc/html</p>
+<h3><a class="anchor" id="build-cmake-cleanup"></a>
+Clean up</h3>
+<p>In order to clean up the build workspaces, run the clean script </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd your_workspace/control-toolbox/ct</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;chmod 775 clean_ct.sh</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;./clean_ct.sh</div></div><!-- fragment --><h1><a class="anchor" id="opt_dep"></a>
 Optional Dependencies and Bindings</h1>
 <p>The following dependencies and bindings are optional but can help to enhance the user-experience or performance of the CT</p>
 <ul>
@@ -177,17 +203,12 @@ build arguments</h1>
 <tr>
 <td>-DHPIPM=&lt;BOOL&gt; </td><td>FALSE </td><td>Compile with HPIPM support (set $BLASFEO_DIR and $HPIPM_DIR environment variables) </td></tr>
 </table>
-<h1><a class="anchor" id="build_doc"></a>
-Build this Documentation</h1>
-<p>To build the documentation do </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;catkin build ct_doc -v --make-args doc # build the doc</div></div><!-- fragment --><p> This will build the documentation. The index.html can be found in ct_doc.</p>
-<h1><a class="anchor" id="run_tests"></a>
-Run Unit Tests</h1>
-<p>The unit tests are writte as <a href="http://code.google.com/p/googletest/">Google Tests</a>. To run unit tests and verify operation execute </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;catkin run_tests</div></div><!-- fragment --> </div></div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun May 12 2019 22:19:04 by
+    <li class="footer">Generated on Thu May 16 2019 21:19:44 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

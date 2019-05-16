@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['num_5ftypes_5fcompiler',['num_types_compiler',['../classct_1_1core_1_1DerivativesCppadSettings.html#acaee2e8e4531462627dd16cd8503e569ac7adcf29b128e40ccd162adb999f7f29',1,'ct::core::DerivativesCppadSettings']]],
-  ['num_5ftypes_5fsolver',['num_types_solver',['../../../../ct_optcon/doc/html/namespacect_1_1optcon.html#a656a888ffbea3e808f3c80425632ef10a6f4c02876bdb32eb21f928951e7f0529',1,'ct::optcon']]]
+  ['matrix_5fexponential',['MATRIX_EXPONENTIAL',['../structct_1_1core_1_1SensitivityApproximationSettings.html#a851b773408d711a6ddecee9b304ae733aba7cece9ba72fa1424f77dc38de84bfb',1,'ct::core::SensitivityApproximationSettings']]],
+  ['modified_5fmidpoint',['MODIFIED_MIDPOINT',['../namespacect_1_1core.html#aa25427d38889f53b3f0b254e647f7319a485b4aa6db11c26f48a3f8805cbd9ef7',1,'ct::core']]]
 ];

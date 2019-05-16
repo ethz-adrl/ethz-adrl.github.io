@@ -22,28 +22,38 @@ var NAVTREE =
     [ "Licence Information", "index.html#licence", null ],
     [ "How to cite the CT", "index.html#cite_ct", null ],
     [ "Related Publications", "index.html#publications", null ],
-    [ "Core module", "../../../ct_core/doc/html/index.html", null ],
-    [ "Optimal Control", "../../../ct_optcon/doc/html/index.html", null ],
-    [ "Robot Module", "../../../ct_rbd/doc/html/index.html", null ],
-    [ "Models", "../../../ct_models/doc/html/index.html", null ],
     [ "Installation", "install_guide.html", [
-      [ "Requirements:", "install_guide.html#req", null ],
-      [ "Get Required Dependencies", "install_guide.html#dep", null ],
-      [ "Building the CT", "install_guide.html#build", null ],
+      [ "Requirements:", "install_guide.html#req", [
+        [ "System Requirements", "install_guide.html#req-system", null ],
+        [ "Required Dependencies", "install_guide.html#req-dependencies", null ]
+      ] ],
+      [ "Building the CT", "install_guide.html#build", [
+        [ "For ROS or catkin users", "install_guide.html#build-ros", [
+          [ "Compiling the Library", "install_guide.html#build-ros-main", null ],
+          [ "Building and running examples", "install_guide.html#build-ros-examples", null ],
+          [ "Building and running the unit tests", "install_guide.html#build-ros-tests", null ],
+          [ "Building the documentation", "install_guide.html#build-ros-doc", null ]
+        ] ],
+        [ "Using plain cmake.", "install_guide.html#build-cmake", [
+          [ "Compiling the Library", "install_guide.html#build-cmake-main", null ],
+          [ "Building and running examples", "install_guide.html#build-cmake-examples", null ],
+          [ "Building and running the unit tests", "install_guide.html#build-cmake-tests", null ],
+          [ "Building the documentation", "install_guide.html#build-cmake-doc", null ],
+          [ "Clean up", "install_guide.html#build-cmake-cleanup", null ]
+        ] ]
+      ] ],
       [ "Optional Dependencies and Bindings", "install_guide.html#opt_dep", null ],
-      [ "build arguments", "install_guide.html#Additional", null ],
-      [ "Build this Documentation", "install_guide.html#build_doc", null ],
-      [ "Run Unit Tests", "install_guide.html#run_tests", null ]
+      [ "build arguments", "install_guide.html#Additional", null ]
     ] ],
     [ "Getting Started", "getting_started.html", "getting_started" ],
-    [ "Inverse Kinematics Tutorials", "ik_tutorials.html", "ik_tutorials" ],
     [ "Performance Optimization", "performance.html", "performance" ],
     [ "Application Examples", "application_examples.html", [
       [ "Model Predictive Control", "application_examples.html#Whole-Body", null ],
       [ "Motion Planning", "application_examples.html#Constrained", null ]
     ] ],
     [ "Change Log", "changelog.html", [
-      [ "Version 3.0", "changelog.html#cl_v30", null ],
+      [ "Version 3.0.1", "changelog.html#cl_v301", null ],
+      [ "Version 3.0.0", "changelog.html#cl_v300", null ],
       [ "Version 2.3", "changelog.html#cl_v23", null ],
       [ "Version 2.2", "changelog.html#cl_v22", null ],
       [ "Version 2.1", "changelog.html#cl_v21", null ],
@@ -61,7 +71,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../../../ct_core/doc/html/index.html"
+"application_examples.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['velocity_5fsmoothing',['VELOCITY_SMOOTHING',['../../../../ct_rbd/doc/html/classct_1_1rbd_1_1EEContactModel.html#a333f4cbcad54b1c1e68c03f718ed86ca',1,'ct::rbd::EEContactModel']]]
+  ['quantizationmethod',['QuantizationMethod',['../classct_1_1core_1_1QuantizationNoise.html#a349d32a99136ee82347a9120468ddaa5',1,'ct::core::QuantizationNoise']]]
 ];

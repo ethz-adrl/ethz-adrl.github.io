@@ -31,6 +31,7 @@ var hierarchy =
         [ "ct::optcon::SwitchedLinearConstraintContainer< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1SwitchedLinearConstraintContainer.html", null ]
       ] ]
     ] ],
+    [ "ControlledSystem< POS_DIM+VEL_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
     [ "ct::core::Controller< STATE_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1Controller.html", [
       [ "ct::optcon::ControllerDms< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1ControllerDms.html", null ]
     ] ],
@@ -178,8 +179,6 @@ var hierarchy =
       [ "ct::core::ControlledSystem< 8, 3 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", [
         [ "LinkedMasses2", "classLinkedMasses2.html", null ]
       ] ],
-      [ "ct::core::ControlledSystem< POS_DIM+VEL_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
-      [ "ct::core::ControlledSystem< POS_DIM+VEL_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
       [ "ct::core::ControlledSystem< STATE_DIM+DIST_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", [
         [ "ct::optcon::DisturbedSystem< STATE_DIM, DIST_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1DisturbedSystem.html", null ],
         [ "ct::optcon::DisturbedSystem< STATE_DIM, CONTROL_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1DisturbedSystem.html", [
