@@ -12,9 +12,9 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", "namespacemembers_type" ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -48,14 +48,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../../ct_core/doc/html/index.html",
-"RobCoGenTestHyQ_8h.html#a0e5e21dee2aad33df4cee3debb28c40c",
-"classct_1_1rbd_1_1FixBaseFDSystemSymplectic.html#a55ad8304a7d71a76944b194724693799",
-"classct_1_1rbd_1_1JacobiSingularity.html#aea06bae562581eddea10145bf15388ac",
-"classct_1_1rbd_1_1SpatialForceVector.html#af36c16fbb1102b35115c58ee68de64b5",
-"classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1InverseDynamics.html#ac52530a1cac12ff24e6cc36c3a2e97c5",
-"classikfast_1_1IkSolutionListBase.html#a9d862f550472c2fa15189946b12222bf",
-"namespaceEigen_1_1internal.html",
-"structiit_1_1testirb4600_1_1tpl_1_1Traits.html#a39df55a0b341e706aaaead4adbf1a8a3"
+"RobCoGenContainer_8h_source.html",
+"classct_1_1rbd_1_1FixBaseFDSystemSymplectic.html#a4beef385278ee428c2dd6d282e51b9d7",
+"classct_1_1rbd_1_1JacobiSingularity.html#ae83d030a41aa2dd2985b778965caecd8a0bf311644a05321c1e3c7940df9a5f2c",
+"classct_1_1rbd_1_1SpatialForceVector.html#ac046d7b048a89e9bf02116e1c7606c1e",
+"classiit_1_1rbd_1_1tpl_1_1InertiaMatrixDense.html#a658d235d6cd7bd61a3a8d4a586bcf765",
+"functions_eval.html",
+"rbdJITtests_8h.html#a816920bc521d920710bcf8636e861331",
+"testhyq_2generated_2declarations_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -4,6 +4,5 @@ var searchData=
   ['quadrotor_5fode',['quadrotor_ode',['../../../../ct_models/doc/html/namespacect_1_1models.html#a32dfdbb91696c21115dfb1ac66efb7c8',1,'ct::models']]],
   ['quadrotorwithloadfdsystem',['QuadrotorWithLoadFDSystem',['../../../../ct_models/doc/html/classct_1_1rbd_1_1QuadrotorWithLoadFDSystem.html#a2e66bf36130b0f6a9358b96c158d0619',1,'ct::rbd::QuadrotorWithLoadFDSystem::QuadrotorWithLoadFDSystem()'],['../../../../ct_models/doc/html/classct_1_1rbd_1_1QuadrotorWithLoadFDSystem.html#ac63b7ccef23febea0d723e728e334cfa',1,'ct::rbd::QuadrotorWithLoadFDSystem::QuadrotorWithLoadFDSystem(const QuadrotorWithLoadFDSystem &amp;arg)']]],
   ['quantizationnoise',['QuantizationNoise',['../../../../ct_optcon/doc/html/classct_1_1core_1_1QuantizationNoise.html#a019f03d94fd5bd3d9ba7fbce8ab9b272',1,'ct::core::QuantizationNoise']]],
-  ['querytrajectory',['queryTrajectory',['../../../../ct_rbd/doc/html/classct_1_1rbd_1_1tpl_1_1SingleDOFTrajectoryGenerator.html#a5e9567e56a15c98121dda995cd69f590',1,'ct::rbd::tpl::SingleDOFTrajectoryGenerator']]],
-  ['queue',['Queue',['../../../../ct_optcon/doc/html/classQueue.html#ab09891e54b51dc677ee6efb350687ae4',1,'Queue']]]
+  ['querytrajectory',['queryTrajectory',['../../../../ct_rbd/doc/html/classct_1_1rbd_1_1tpl_1_1SingleDOFTrajectoryGenerator.html#a5e9567e56a15c98121dda995cd69f590',1,'ct::rbd::tpl::SingleDOFTrajectoryGenerator']]]
 ];

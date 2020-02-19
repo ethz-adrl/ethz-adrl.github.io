@@ -18,7 +18,5 @@ var searchData=
   ['policyhandler_2eh',['PolicyHandler.h',['../../../../ct_optcon/doc/html/PolicyHandler_8h.html',1,'']]],
   ['projecteddynamics_2eh',['ProjectedDynamics.h',['../../../../ct_rbd/doc/html/ProjectedDynamics_8h.html',1,'']]],
   ['projectedfdsystem_2eh',['ProjectedFDSystem.h',['../../../../ct_rbd/doc/html/ProjectedFDSystem_8h.html',1,'']]],
-  ['projectedfdsystemtest_2ecpp',['ProjectedFDSystemTest.cpp',['../../../../ct_rbd/doc/html/ProjectedFDSystemTest_8cpp.html',1,'']]],
-  ['projectedfdsystemtest_5fhyqadcg_5fjitlib_2ecpp',['ProjectedFDSystemTest_hyqADCG_JITLib.cpp',['../../../../ct_core/doc/html/ProjectedFDSystemTest__hyqADCG__JITLib_8cpp.html',1,'']]],
-  ['projectedfdsystemtest_5fhyqadcg_5fjitlib_2eh',['ProjectedFDSystemTest_hyqADCG_JITLib.h',['../../../../ct_core/doc/html/ProjectedFDSystemTest__hyqADCG__JITLib_8h.html',1,'']]]
+  ['projectedfdsystemtest_2ecpp',['ProjectedFDSystemTest.cpp',['../../../../ct_rbd/doc/html/ProjectedFDSystemTest_8cpp.html',1,'']]]
 ];

@@ -22,7 +22,7 @@ var classct_1_1rbd_1_1FloatingBaseNLOCContactModel =
     [ "getTimeArray", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#af07abe0fd993f0593a50aa9840db5410", null ],
     [ "getFeedbackArray", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#ae4f0b21683c972ae804b621700e7d594", null ],
     [ "getControlVectorArray", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#ab619143563265f9b24c7fb37e3d3a43a", null ],
-    [ "getSettings", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#aff03c7af50dd8ff0cf499ad68377acd1", null ],
+    [ "getSettings", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#a73c5bb20586d406864afa6b241fce289", null ],
     [ "changeCostFunction", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#aba750cbf91e0a5a6236439e915996e26", null ],
     [ "getSolver", "classct_1_1rbd_1_1FloatingBaseNLOCContactModel.html#a9f09867ff39dcaee4683a5741be1038b", null ]
 ];

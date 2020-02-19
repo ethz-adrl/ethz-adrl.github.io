@@ -8,7 +8,7 @@ var classct_1_1core_1_1ControlledSystem =
     [ "~ControlledSystem", "classct_1_1core_1_1ControlledSystem.html#a97ccd67b9e0eb897b8c277a616caf7a5", null ],
     [ "clone", "classct_1_1core_1_1ControlledSystem.html#aea3909f811f7c9f6fe99b1d49a96801d", null ],
     [ "setController", "classct_1_1core_1_1ControlledSystem.html#af228fd4c3fb46eae179334228664f7d7", null ],
-    [ "getController", "classct_1_1core_1_1ControlledSystem.html#afd1939d19fa8e412aa49f8f1c6e3b910", null ],
+    [ "getController", "classct_1_1core_1_1ControlledSystem.html#a64a4cfce7d7829ac5bae501b6bc23b77", null ],
     [ "getController", "classct_1_1core_1_1ControlledSystem.html#a89454960eb35da1ec5b34419c403ec3a", null ],
     [ "computeDynamics", "classct_1_1core_1_1ControlledSystem.html#a433297a1ad0c9549db77c1e280492d29", null ],
     [ "computeControlledDynamics", "classct_1_1core_1_1ControlledSystem.html#a33ac7e77b480a659818189367f928393", null ],

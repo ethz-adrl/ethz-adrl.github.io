@@ -13,10 +13,10 @@ var classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM =
     [ "update", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a092f1b8f3dfd00813002bef3e7b2db0d", null ],
     [ "computeL", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#ab6044b9c0ee647f643ed1ce232053d32", null ],
     [ "computeInverse", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a3748834318b7917d9f6ad0b1452ac635", null ],
-    [ "getL", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a0813aedcc1f5a8ce83578cabb7d02c62", null ],
-    [ "getInverse", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a89ff5592d7790b01dd077d5cf488f47a", null ],
-    [ "getWholeBodyInertia", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#abc1fba3512f48a571bd0087211dd8d9e", null ],
-    [ "getF", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a4fdb5c687c115c297a163575001c1329", null ],
-    [ "getFixedBaseBlock", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#ad966c11c9f1133f6f29f89a050d5ccd5", null ],
+    [ "getL", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a9cd2bb2e32403cf53552785b72c78253", null ],
+    [ "getInverse", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#ad26b31546925636a5988310d58e7af47", null ],
+    [ "getWholeBodyInertia", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a9c00c81ad271ee90c90776f36fad85c4", null ],
+    [ "getF", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a20922c83d564743a908bddd6e7bb7b9b", null ],
+    [ "getFixedBaseBlock", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a06488fdb086aec4c4afd721ba4136268", null ],
     [ "computeLInverse", "classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html#a0f9a4b3d143a3ce4f01ae259e5e3d0ca", null ]
 ];

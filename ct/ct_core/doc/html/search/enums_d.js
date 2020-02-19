@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rotors',['ROTORS',['../../../../ct_models/doc/html/namespacect_1_1models_1_1quadrotor.html#ac516ebe8bae1a56032797af9450a5564',1,'ct::models::quadrotor']]]
+  ['velocity_5fsmoothing',['VELOCITY_SMOOTHING',['../../../../ct_rbd/doc/html/classct_1_1rbd_1_1EEContactModel.html#a333f4cbcad54b1c1e68c03f718ed86ca',1,'ct::rbd::EEContactModel']]]
 ];

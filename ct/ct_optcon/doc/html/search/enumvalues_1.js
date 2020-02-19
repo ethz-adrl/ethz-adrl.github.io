@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['constant_5freceding_5fhorizon',['CONSTANT_RECEDING_HORIZON',['../namespacect_1_1optcon.html#acea7c435fa15c130ecceb364053b0788a7e51ec7af599f766f4fb2b160af4d173',1,'ct::optcon']]]
+  ['backward_5feuler',['BACKWARD_EULER',['../../../../ct_optcon/doc/html/structct_1_1core_1_1SensitivityApproximationSettings.html#a851b773408d711a6ddecee9b304ae733a3465588bedb02dfcefcc726625308fb3',1,'ct::core::SensitivityApproximationSettings']]]
 ];

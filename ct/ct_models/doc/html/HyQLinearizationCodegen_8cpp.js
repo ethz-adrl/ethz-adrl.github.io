@@ -9,6 +9,5 @@ var HyQLinearizationCodegen_8cpp =
     [ "generateFDLinearization", "HyQLinearizationCodegen_8cpp.html#a90ec5a5b565b9ad758fe10aef53e3755", null ],
     [ "main", "HyQLinearizationCodegen_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97", null ],
     [ "state_dim", "HyQLinearizationCodegen_8cpp.html#aee389a8603de7f177a44b4fdb596b453", null ],
-    [ "control_dim", "HyQLinearizationCodegen_8cpp.html#a34be06af0afe81145dcb373157e5abaf", null ],
-    [ "njoints", "HyQLinearizationCodegen_8cpp.html#abd692b2e9d050bb397d3264fadf00ed6", null ]
+    [ "control_dim", "HyQLinearizationCodegen_8cpp.html#a34be06af0afe81145dcb373157e5abaf", null ]
 ];

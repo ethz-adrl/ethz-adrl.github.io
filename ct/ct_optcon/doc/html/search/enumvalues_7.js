@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['keep_5ftime_5fand_5fgrid',['KEEP_TIME_AND_GRID',['../classct_1_1optcon_1_1DmsSettings.html#a6b0474bb8d509037ab956044897fad10a7394e382068b4fe657004bf5169927ec',1,'ct::optcon::DmsSettings']]]
+  ['ilqr',['ILQR',['../classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678af7180a1e0ef88d237cc38ea1133c4ab1',1,'ct::optcon::NLOptConSettings']]],
+  ['ipopt',['IPOPT',['../namespacect_1_1optcon.html#a656a888ffbea3e808f3c80425632ef10a6b93b108ba2eb6ad8ff0473e877e8a66',1,'ct::optcon']]]
 ];

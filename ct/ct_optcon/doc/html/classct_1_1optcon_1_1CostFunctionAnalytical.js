@@ -8,7 +8,7 @@ var classct_1_1optcon_1_1CostFunctionAnalytical =
     [ "CostFunctionAnalytical", "classct_1_1optcon_1_1CostFunctionAnalytical.html#aae8b1dedb52a2e251d34e858b25d9f25", null ],
     [ "CostFunctionAnalytical", "classct_1_1optcon_1_1CostFunctionAnalytical.html#aa15bab74f7ab990bc5b3965cd2b96e55", null ],
     [ "~CostFunctionAnalytical", "classct_1_1optcon_1_1CostFunctionAnalytical.html#a1f9fa1cb801d1f9c9e01e66091708f33", null ],
-    [ "clone", "classct_1_1optcon_1_1CostFunctionAnalytical.html#a6350b8b23713a36edb0bfc70de057ae6", null ],
+    [ "clone", "classct_1_1optcon_1_1CostFunctionAnalytical.html#a2b01070a265a3d891175dd42b494d7cd", null ],
     [ "evaluateIntermediate", "classct_1_1optcon_1_1CostFunctionAnalytical.html#a53c4d25713ce2ba959c07b09127ec70f", null ],
     [ "evaluateTerminal", "classct_1_1optcon_1_1CostFunctionAnalytical.html#a38900a844a00d62e5b4a700d6c5e86f7", null ],
     [ "stateDerivativeIntermediate", "classct_1_1optcon_1_1CostFunctionAnalytical.html#a62b9ee77cbe2b5f72213c4e4a34eae52", null ],

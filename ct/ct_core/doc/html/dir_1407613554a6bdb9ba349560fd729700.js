@@ -2,7 +2,7 @@ var dir_1407613554a6bdb9ba349560fd729700 =
 [
     [ "arrays", "dir_adbaad79e51f8f33a1d40fe81e7b566e.html", "dir_adbaad79e51f8f33a1d40fe81e7b566e" ],
     [ "trajectories", "dir_2edb1b340a5d7d7f756c1ccc89a0d7ff.html", "dir_2edb1b340a5d7d7f756c1ccc89a0d7ff" ],
-    [ "AutoDiff.h", "AutoDiff_8h.html", "AutoDiff_8h" ],
+    [ "AutoDiff.h", "AutoDiff_8h.html", null ],
     [ "ControlMatrix.h", "ControlMatrix_8h.html", [
       [ "ControlMatrix", "classct_1_1core_1_1ControlMatrix.html", "classct_1_1core_1_1ControlMatrix" ]
     ] ],

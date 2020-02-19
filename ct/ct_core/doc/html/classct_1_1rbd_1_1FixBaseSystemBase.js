@@ -12,7 +12,7 @@ var classct_1_1rbd_1_1FixBaseSystemBase =
     [ "~FixBaseSystemBase", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#aa64a1cc2f21a64663ae0baedef800f98", null ],
     [ "dynamics", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#a5f2711ebc27786fac6030251393ffeab", null ],
     [ "dynamics", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#ac37bcdc5763bd77369819bc4ba2bc0f1", null ],
-    [ "computeControlledDynamics", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#a0c404856830c01d65252ae2d72c81225", null ],
+    [ "computeControlledDynamics", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#ae37ce0b7cd43988a879f01849db2e6c6", null ],
     [ "clone", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#a198e5b316d788d3f2e8be5ffd9991974", null ],
     [ "computeIDTorques", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#ac94e358e068278ce758badec868b9e86", null ],
     [ "basePose_", "../../../ct_rbd/doc/html/classct_1_1rbd_1_1FixBaseSystemBase.html#ab3d2aa8dad3fe37dfe2cc2e8de1a2e80", null ],

@@ -8,6 +8,6 @@ var classct_1_1core_1_1ConstantController =
     [ "computeControl", "classct_1_1core_1_1ConstantController.html#abe8859c5a9c5444b1a133eb7375d826d", null ],
     [ "computeControl", "classct_1_1core_1_1ConstantController.html#ae2089a243843af6164a8a933c30ed4dd", null ],
     [ "setControl", "classct_1_1core_1_1ConstantController.html#a004b492de0283d6fe1e4552134ba9a10", null ],
-    [ "getControl", "classct_1_1core_1_1ConstantController.html#a528e9b7a72601fd00f79f6f8951a3377", null ],
+    [ "getControl", "classct_1_1core_1_1ConstantController.html#a21a8f57628add884e7d62579c27e1bc2", null ],
     [ "getDerivativeU0", "classct_1_1core_1_1ConstantController.html#abe3a7f35dc32c4d7473e0dc9388a9f56", null ]
 ];

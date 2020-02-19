@@ -12,10 +12,10 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
-        [ "Typedefs", "namespacemembers_type.html", "namespacemembers_type" ],
+        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -36,7 +36,7 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
+        [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -49,14 +49,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../../ct_core/doc/html/index.html",
-"KalmanFiltering_8cpp-example.html",
-"SymplecticTest_8h-example.html",
-"classct_1_1optcon_1_1DisturbedSystem.html#a1cc498641adb2cb55329c50ffa2d33aa",
-"classct_1_1optcon_1_1NLOCBackendBase.html#a36d3812f026ecdfae98626c565007e97",
-"classct_1_1optcon_1_1OptConProblemBase.html#aa0137f6d92a1db113cbe7feae48712c2",
-"classct_1_1optcon_1_1example_1_1ConstraintTerm2D.html#a7c9a953e6e820d72fc8af7a71575e4dc",
-"dir_83de5b8307ab875c6a5ce6efc206005f.html",
-"namespacemembers_type.html"
+"LQOCProblem-impl_8hpp.html",
+"SwitchedLinearConstraintContainer_8h_source.html",
+"classct_1_1optcon_1_1Cholesky.html#afe06b0b6dc11674a4103b4dedaf3808f",
+"classct_1_1optcon_1_1NLOCBackendBase.html#a1ac301424761dea4fce8de76fe00ee6f",
+"classct_1_1optcon_1_1NLOptConSolver.html#afdd6fc0084e41d23edd2d5df23dab89b",
+"classct_1_1optcon_1_1SystemModelBase.html#a96f57b87a3d93e44f85fc972281d8ce1",
+"dir_0b6ac38846aa0f6d4805246f54a67497.html",
+"plotResultsSwitched_8h.html#a2d3e5683c83fbf41fc420eec5d341607"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

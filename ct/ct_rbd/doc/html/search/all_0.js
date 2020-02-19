@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['_5fapplication',['_application',['../../../../ct_core/doc/html/structct_1_1core_1_1plotQwt_1_1detail_1_1__application.html',1,'ct::core::plotQwt::detail']]],
-  ['_5fapplication',['_application',['../../../../ct_core/doc/html/structct_1_1core_1_1plotQwt_1_1detail_1_1__application.html#a7ec8f36c606b4f0528deb7129853d008',1,'ct::core::plotQwt::detail::_application']]],
+  ['_5fapplication',['_application',['../../../../ct_core/doc/html/structct_1_1core_1_1plotQwt_1_1detail_1_1__application.html',1,'ct::core::plotQwt::detail::_application'],['../../../../ct_core/doc/html/structct_1_1core_1_1plotQwt_1_1detail_1_1__application.html#a7ec8f36c606b4f0528deb7129853d008',1,'ct::core::plotQwt::detail::_application::_application()']]],
   ['_5fcomputefk',['_ComputeFk',['../classikfast_1_1IkFastFunctions.html#a5a30a89afe6314eb86a05c3bd5a1a303',1,'ikfast::IkFastFunctions']]],
   ['_5fcomputeik',['_ComputeIk',['../classikfast_1_1IkFastFunctions.html#a75775a9a8c284f52cb6cc473c434163c',1,'ikfast::IkFastFunctions']]],
   ['_5fcomputeik2',['_ComputeIk2',['../classikfast_1_1IkFastFunctions.html#a80a08b6a3fb3cd0e60e25fc6384d733c',1,'ikfast::IkFastFunctions']]],

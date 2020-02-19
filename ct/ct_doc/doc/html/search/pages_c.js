@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['optimize_20compile_20time',['Optimize Compile Time',['../compile_time.html',1,'performance']]],
-  ['optimize_20execution_20speed',['Optimize Execution Speed',['../execution_speed.html',1,'performance']]],
-  ['overview',['Overview',['../index.html',1,'']]],
-  ['optimal_20control_20of_20a_20damped_20oscillator',['Optimal control of a Damped Oscillator',['../optcon_tut_nloc.html',1,'optcon_tutorials']]]
+  ['some_20notes_20on_20types',['Some notes on types',['../core_tut_types.html',1,'core_tutorials']]],
+  ['simple_20examples_20for_20nonlinear_20programming',['Simple Examples for Nonlinear Programming',['../optcon_tut_nlp.html',1,'optcon_tutorials']]],
+  ['simulate_20your_20robot_20and_20create_20a_20controller',['Simulate your robot and create a controller',['../rbd_tut_forward_dynamics.html',1,'rbd_tutorials']]]
 ];

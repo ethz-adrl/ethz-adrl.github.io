@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['simple',['SIMPLE',['../classct_1_1optcon_1_1DmsSettings.html#a4377f488b7c42a54f3c6c55e7a949910a39bae3af58d8b3965357fc4359ed7da8',1,'ct::optcon::DmsSettings']]],
-  ['snopt',['SNOPT',['../namespacect_1_1optcon.html#a656a888ffbea3e808f3c80425632ef10a39f009fe11a6d2f243a5840955765947',1,'ct::optcon']]],
-  ['symplectic_5feuler',['SYMPLECTIC_EULER',['../../../../ct_optcon/doc/html/structct_1_1core_1_1SensitivityApproximationSettings.html#a851b773408d711a6ddecee9b304ae733abe374a6850ec4310e62df1eccafe264b',1,'ct::core::SensitivityApproximationSettings']]]
+  ['receding_5fhorizon_5fwith_5ffixed_5ffinal_5ftime',['RECEDING_HORIZON_WITH_FIXED_FINAL_TIME',['../namespacect_1_1optcon.html#acea7c435fa15c130ecceb364053b0788a1698ce78aa371e24eb7829269ca0ef50',1,'ct::optcon']]],
+  ['rk4',['RK4',['../classct_1_1optcon_1_1DmsSettings.html#aaa51e7b3b9881dfe1de1884fcb536962ade600243fba572da7c9ecf8bb5a6e8e7',1,'ct::optcon::DmsSettings']]],
+  ['rk5',['RK5',['../classct_1_1optcon_1_1DmsSettings.html#aaa51e7b3b9881dfe1de1884fcb536962a731bd0480d933946020ff31b50450c0c',1,'ct::optcon::DmsSettings']]]
 ];

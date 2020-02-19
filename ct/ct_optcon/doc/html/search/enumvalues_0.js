@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['backward_5feuler',['BACKWARD_EULER',['../../../../ct_optcon/doc/html/structct_1_1core_1_1SensitivityApproximationSettings.html#a851b773408d711a6ddecee9b304ae733a3465588bedb02dfcefcc726625308fb3',1,'ct::core::SensitivityApproximationSettings']]]
+  ['armijo',['ARMIJO',['../structct_1_1optcon_1_1LineSearchSettings.html#a393c6923e7595cee5066f126facfc110a983e7ac83afbb3a39ca0af304be44968',1,'ct::optcon::LineSearchSettings']]]
 ];

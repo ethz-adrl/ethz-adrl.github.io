@@ -3,8 +3,6 @@ var searchData=
   ['h_5f',['h_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1EstimatorBase.html#a72f5b34eeb45fbb3d6d35ece0a2af1a7',1,'ct::optcon::EstimatorBase::h_()'],['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1GNRiccatiSolver.html#a8217f2638afb4a7eeb4546a889411be7',1,'ct::optcon::GNRiccatiSolver::H_()']]],
   ['h_5fcorrfix_5f',['H_corrFix_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1GNRiccatiSolver.html#a0a6aea229aca7a3ba6cd65961eae0868',1,'ct::optcon::GNRiccatiSolver']]],
   ['h_5fmin_5f',['h_min_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1DmsSettings.html#a399c7d5bb071d27581a4401c8d3a2697',1,'ct::optcon::DmsSettings']]],
-  ['hasboxconstraints_5f',['hasBoxConstraints_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1LQOCProblem.html#afe33e8ee68a5ace269f9eac7b7cb2593',1,'ct::optcon::LQOCProblem']]],
-  ['hasgenconstraints_5f',['hasGenConstraints_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1LQOCProblem.html#a23bc89dc32f4624ab2fe1d1803469772',1,'ct::optcon::LQOCProblem']]],
   ['hes_5ftype',['HES_TYPE',['../../../../ct_core/doc/html/classct_1_1core_1_1generated_1_1TestHessian.html#af18010b296121f865441bc95bcc38043',1,'ct::core::generated::TestHessian']]],
   ['hessian_5fapproximation_5f',['hessian_approximation_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1IpoptSettings.html#af88aa103cf1dab27f5776c0dfe29e13f',1,'ct::optcon::IpoptSettings']]],
   ['hessian_5fupdates_5f',['hessian_updates_',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1SnoptSettings.html#ae85d113aa7310014d71b3bf90effe7f1',1,'ct::optcon::SnoptSettings']]],

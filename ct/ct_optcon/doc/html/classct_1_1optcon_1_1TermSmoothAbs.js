@@ -11,7 +11,6 @@ var classct_1_1optcon_1_1TermSmoothAbs =
     [ "~TermSmoothAbs", "classct_1_1optcon_1_1TermSmoothAbs.html#ae0660857030ea59b0368e3ac85e4cf8e", null ],
     [ "clone", "classct_1_1optcon_1_1TermSmoothAbs.html#a5637e5bdde00bef1bd2b302e78787546", null ],
     [ "evaluate", "classct_1_1optcon_1_1TermSmoothAbs.html#a7d6bf49f89ee20bed2b93cce0d7c3098", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1TermSmoothAbs.html#a3418567b5049b2bec1ba41939576e2e6", null ],
     [ "stateDerivative", "classct_1_1optcon_1_1TermSmoothAbs.html#a0cafa29ff917c50f8a0ada70a4f15343", null ],
     [ "stateSecondDerivative", "classct_1_1optcon_1_1TermSmoothAbs.html#ac4ac2916bbcdb42a0d098d5947562ae6", null ],
     [ "controlDerivative", "classct_1_1optcon_1_1TermSmoothAbs.html#a36ca5d0f53dd90d156524de6c7fda488", null ],

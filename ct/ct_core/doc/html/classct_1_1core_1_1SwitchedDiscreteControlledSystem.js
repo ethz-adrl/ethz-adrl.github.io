@@ -10,7 +10,7 @@ var classct_1_1core_1_1SwitchedDiscreteControlledSystem =
     [ "SwitchedDiscreteControlledSystem", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#adf10b09360e9faf4296d7ebc565ff661", null ],
     [ "SwitchedDiscreteControlledSystem", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#ad4d01008c7662a1045e309e58c1b5940", null ],
     [ "~SwitchedDiscreteControlledSystem", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#a664d37735ef8feca0af739c4a6adb42a", null ],
-    [ "clone", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#aec9be2014c6336b8491771dc2fece44e", null ],
+    [ "clone", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#abe2157b5de747d2651eca19994721f3b", null ],
     [ "propagateControlledDynamics", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#ab6f464e871db4da6d6de957f89324d45", null ],
     [ "Ptr", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#a1a818d852c878d9a434b29d426b09e38", null ],
     [ "switchedSystems_", "classct_1_1core_1_1SwitchedDiscreteControlledSystem.html#ac3ae6beea178ebc9f8975db5a5f5980a", null ],

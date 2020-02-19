@@ -19,14 +19,7 @@ var searchData=
   ['floatingbaserobotstate',['FloatingBaseRobotState',['../classct_1_1rbd_1_1FloatingBaseRobotState.html',1,'ct::rbd']]],
   ['floatingbaseslq',['FloatingBaseSLQ',['../classct_1_1rbd_1_1FloatingBaseSLQ.html',1,'ct::rbd']]],
   ['floatingbasetransforms',['FloatingBaseTransforms',['../classct_1_1rbd_1_1FloatingBaseTransforms.html',1,'ct::rbd']]],
-  ['floattrait',['FloatTrait',['../structiit_1_1rbd_1_1FloatTrait.html',1,'iit::rbd']]],
-  ['floattrait',['FloatTrait',['../../../../ct_core/doc/html/structct_1_1core_1_1internal_1_1FloatTrait.html',1,'ct::core::internal']]],
-  ['forwarddynamics',['ForwardDynamics',['../../../../ct_models/doc/html/classiit_1_1HyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::HyQ::dyn::tpl']]],
-  ['forwarddynamics',['ForwardDynamics',['../../../../ct_models/doc/html/classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_InvertedPendulum::dyn::tpl']]],
-  ['forwarddynamics',['ForwardDynamics',['../classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::testirb4600::dyn::tpl']]],
-  ['forwarddynamics',['ForwardDynamics',['../../../../ct_models/doc/html/classiit_1_1ct__DoubleInvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_DoubleInvertedPendulum::dyn::tpl']]],
-  ['forwarddynamics',['ForwardDynamics',['../classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::TestHyQ::dyn::tpl']]],
-  ['forwarddynamics',['ForwardDynamics',['../../../../ct_models/doc/html/classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_HyA::dyn::tpl']]],
-  ['forwarddynamics',['ForwardDynamics',['../../../../ct_models/doc/html/classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_quadrotor::dyn::tpl']]],
+  ['floattrait',['FloatTrait',['../structiit_1_1rbd_1_1FloatTrait.html',1,'iit::rbd::FloatTrait'],['../../../../ct_core/doc/html/structct_1_1core_1_1internal_1_1FloatTrait.html',1,'ct::core::internal::FloatTrait']]],
+  ['forwarddynamics',['ForwardDynamics',['../classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::testirb4600::dyn::tpl::ForwardDynamics&lt; TRAIT &gt;'],['../../../../ct_models/doc/html/classiit_1_1HyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::HyQ::dyn::tpl::ForwardDynamics&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_InvertedPendulum::dyn::tpl::ForwardDynamics&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_quadrotor::dyn::tpl::ForwardDynamics&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__DoubleInvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_DoubleInvertedPendulum::dyn::tpl::ForwardDynamics&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::ct_HyA::dyn::tpl::ForwardDynamics&lt; class &gt;'],['../classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html',1,'iit::TestHyQ::dyn::tpl::ForwardDynamics&lt; TRAIT &gt;']]],
   ['framejacobian',['FrameJacobian',['../classct_1_1rbd_1_1tpl_1_1FrameJacobian.html',1,'ct::rbd::tpl']]]
 ];

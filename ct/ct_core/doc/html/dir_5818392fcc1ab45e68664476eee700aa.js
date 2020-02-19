@@ -1,11 +1,7 @@
 var dir_5818392fcc1ab45e68664476eee700aa =
 [
-    [ "ADCodegenLinearizer.h", "ADCodegenLinearizer_8h.html", [
-      [ "ADCodegenLinearizer", "classct_1_1core_1_1ADCodegenLinearizer.html", "classct_1_1core_1_1ADCodegenLinearizer" ]
-    ] ],
-    [ "AutoDiffLinearizer.h", "AutoDiffLinearizer_8h.html", [
-      [ "AutoDiffLinearizer", "classct_1_1core_1_1AutoDiffLinearizer.html", "classct_1_1core_1_1AutoDiffLinearizer" ]
-    ] ],
+    [ "ADCodegenLinearizer.h", "ADCodegenLinearizer_8h.html", null ],
+    [ "AutoDiffLinearizer.h", "AutoDiffLinearizer_8h.html", null ],
     [ "LinearSystem.h", "LinearSystem_8h.html", [
       [ "LinearSystem", "classct_1_1core_1_1LinearSystem.html", "classct_1_1core_1_1LinearSystem" ]
     ] ],

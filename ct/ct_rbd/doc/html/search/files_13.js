@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['targetdirectories_2etxt',['TargetDirectories.txt',['../TargetDirectories_8txt.html',1,'(Global Namespace)'],['../../../../ct_optcon/doc/html/TargetDirectories_8txt.html',1,'(Global Namespace)'],['../../../../ct_core/doc/html/TargetDirectories_8txt.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/TargetDirectories_8txt.html',1,'(Global Namespace)']]],
   ['taskspacecostfunctiontest_2ecpp',['TaskspaceCostFunctionTest.cpp',['../TaskspaceCostFunctionTest_8cpp.html',1,'']]],
   ['taskspacecostfunctiontest_2eh',['TaskspaceCostFunctionTest.h',['../TaskspaceCostFunctionTest_8h.html',1,'']]],
   ['templatedir_2eh',['templateDir.h',['../../../../ct_core/doc/html/templateDir_8h.html',1,'']]],
@@ -52,9 +51,7 @@ var searchData=
   ['timearray_2eh',['TimeArray.h',['../../../../ct_core/doc/html/TimeArray_8h.html',1,'']]],
   ['timegrid_2eh',['TimeGrid.h',['../../../../ct_optcon/doc/html/TimeGrid_8h.html',1,'']]],
   ['timer_2eh',['Timer.h',['../../../../ct_core/doc/html/Timer_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../testhyq_2generated_2traits_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../../../../ct_models/doc/html/DoubleInvertedPendulum_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/HyA_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/HyQ_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/InvertedPendulum_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/QuadrotorWithLoad_2generated_2traits_8h.html',1,'(Global Namespace)']]],
-  ['traits_2eh',['traits.h',['../testIrb4600_2generated_2traits_8h.html',1,'']]],
+  ['traits_2eh',['traits.h',['../testhyq_2generated_2traits_8h.html',1,'(Global Namespace)'],['../testIrb4600_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/DoubleInvertedPendulum_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/HyA_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/HyQ_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/InvertedPendulum_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_models/doc/html/QuadrotorWithLoad_2generated_2traits_8h.html',1,'(Global Namespace)']]],
   ['traitselector_2eh',['TraitSelector.h',['../TraitSelector_8h.html',1,'(Global Namespace)'],['../../../../ct_core/doc/html/TraitSelector_8h.html',1,'(Global Namespace)']]],
   ['traitselectorspecs_2eh',['TraitSelectorSpecs.h',['../TraitSelectorSpecs_8h.html',1,'(Global Namespace)'],['../../../../ct_core/doc/html/TraitSelectorSpecs_8h.html',1,'(Global Namespace)']]],
   ['trajectorybase_2eh',['TrajectoryBase.h',['../../../../ct_core/doc/html/TrajectoryBase_8h.html',1,'']]],

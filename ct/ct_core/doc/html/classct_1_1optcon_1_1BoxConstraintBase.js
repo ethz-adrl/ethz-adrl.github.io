@@ -16,7 +16,6 @@ var classct_1_1optcon_1_1BoxConstraintBase =
     [ "clone", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#a80f977a2d3469842713fe46f60eb6c8a", null ],
     [ "getConstraintSize", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#a13d3d7a5cc09165155e8128fe5261e65", null ],
     [ "evaluate", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#a92a85e15779bc390e8ff2970254313dd", null ],
-    [ "evaluateCppadCg", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#a9106264cc349b520d31a7c404d08570b", null ],
     [ "jacobianState", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#a7b0ada707ce38ea1e270b950fa042928", null ],
     [ "jacobianInput", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#ae9bb95cad001325a86a93dd9e0684e43", null ],
     [ "getNumNonZerosJacobianState", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1BoxConstraintBase.html#aec935dd85b18f2255fd889d700cb7455", null ],

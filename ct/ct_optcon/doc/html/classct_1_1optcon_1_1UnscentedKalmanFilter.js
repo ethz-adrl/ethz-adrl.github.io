@@ -3,7 +3,7 @@ var classct_1_1optcon_1_1UnscentedKalmanFilter =
     [ "Base", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#a300158bfa5a5de2fba8d66a447fa8041", null ],
     [ "SigmaPoints", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#a897222edfe301971e231daeab14714b7", null ],
     [ "Covariance", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#aa401d31521d87922deaf3a714ee76d21", null ],
-    [ "CovarianceSquareRoot", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#aa5a4f050a4772573726c414c0ba8cb61", null ],
+    [ "CovarianceSquareRoot", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#abb260fc65ff2284cb8f7d79f2589c35b", null ],
     [ "control_vector_t", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#ad0ea3933337460e33656b98852bde4f5", null ],
     [ "output_matrix_t", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#a8fbe007f2337b49684dace9e6ca99f4d", null ],
     [ "output_vector_t", "classct_1_1optcon_1_1UnscentedKalmanFilter.html#a2a2a5f8b82b474da97205f861985c95c", null ],

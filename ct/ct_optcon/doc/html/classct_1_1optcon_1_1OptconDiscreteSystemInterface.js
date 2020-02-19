@@ -11,7 +11,7 @@ var classct_1_1optcon_1_1OptconDiscreteSystemInterface =
     [ "optConProblem_t", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#a13bcd5727cb0acf4eecfd9e6cac67914", null ],
     [ "settings_t", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#a2ddd219d2417fd736a13d4664c26e775", null ],
     [ "OptconDiscreteSystemInterface", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#a9f76c473dffb79d2122fb69dc846f050", null ],
-    [ "~OptconDiscreteSystemInterface", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#ae1721b89ce63e029857c435368e91420", null ],
+    [ "~OptconDiscreteSystemInterface", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#a2047e04fe800fb707fbe3541f30a501f", null ],
     [ "initialize", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#af8af5e7e674c428c2bea3a2cf77c9a06", null ],
     [ "configure", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#ac6c9764ac8db79cf177510fb8e83c11e", null ],
     [ "getAandB", "classct_1_1optcon_1_1OptconDiscreteSystemInterface.html#ab9d50eb61e9ce84d809d17b0747ad841", null ],

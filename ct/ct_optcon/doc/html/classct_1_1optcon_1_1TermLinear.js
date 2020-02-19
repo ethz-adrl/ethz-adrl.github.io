@@ -11,7 +11,6 @@ var classct_1_1optcon_1_1TermLinear =
     [ "~TermLinear", "classct_1_1optcon_1_1TermLinear.html#a9f8aa88e2ddf3712db236d31b7a61e61", null ],
     [ "clone", "classct_1_1optcon_1_1TermLinear.html#ade9d6af313150e771aff8e166d516bec", null ],
     [ "evaluate", "classct_1_1optcon_1_1TermLinear.html#abba75dc8b4f4b9da5f4c54a01f0cc981", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1TermLinear.html#add2587ef060d6fc30aedea6a9eba1f67", null ],
     [ "stateDerivative", "classct_1_1optcon_1_1TermLinear.html#a45645c2ec4af7b610ee601e8edb7f83f", null ],
     [ "stateSecondDerivative", "classct_1_1optcon_1_1TermLinear.html#a2ed802bf418a98e89d87b6fd82b7ba14", null ],
     [ "controlDerivative", "classct_1_1optcon_1_1TermLinear.html#ac28ea5bfcdaa19142737727e2662fcf3", null ],

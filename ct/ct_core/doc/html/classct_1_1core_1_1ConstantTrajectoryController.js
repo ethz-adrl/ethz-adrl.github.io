@@ -7,7 +7,7 @@ var classct_1_1core_1_1ConstantTrajectoryController =
     [ "clone", "classct_1_1core_1_1ConstantTrajectoryController.html#a0a48b4bf41fb746717e937d81df8326b", null ],
     [ "computeControl", "classct_1_1core_1_1ConstantTrajectoryController.html#a96a51e697c77d058775bbf83621864f6", null ],
     [ "setControlVectorArray", "classct_1_1core_1_1ConstantTrajectoryController.html#a1609b93300a54bb160f0f37a8285fa98", null ],
-    [ "getControlVectorArray", "classct_1_1core_1_1ConstantTrajectoryController.html#ace8f2ef432cc030f29cd219ac3a66292", null ],
+    [ "getControlVectorArray", "classct_1_1core_1_1ConstantTrajectoryController.html#ab767b1d4c200e57e463d52d6c3344d22", null ],
     [ "setStateVectorArray", "classct_1_1core_1_1ConstantTrajectoryController.html#a10351b06ff5028cafcc32707a6290782", null ],
-    [ "getStateVectorArray", "classct_1_1core_1_1ConstantTrajectoryController.html#a56c342b362d3fca59c0b2edff7bb1a85", null ]
+    [ "getStateVectorArray", "classct_1_1core_1_1ConstantTrajectoryController.html#ac1e49f5f747c429af995c578c91aabaf", null ]
 ];

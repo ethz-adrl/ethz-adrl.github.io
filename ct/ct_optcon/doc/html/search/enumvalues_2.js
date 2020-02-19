@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['euler',['EULER',['../classct_1_1optcon_1_1DmsSettings.html#aaa51e7b3b9881dfe1de1884fcb536962a2a81495d888b76ea9d8d09f4669fc8e0',1,'ct::optcon::DmsSettings']]]
+  ['constant_5freceding_5fhorizon',['CONSTANT_RECEDING_HORIZON',['../namespacect_1_1optcon.html#acea7c435fa15c130ecceb364053b0788a7e51ec7af599f766f4fb2b160af4d173',1,'ct::optcon']]]
 ];

@@ -1,8 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"KalmanFiltering_8cpp-example.html":[11,6],
-"KalmanFiltering_8cpp.html":[10,0,1,6],
-"KalmanFiltering_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[10,0,1,6,0],
 "LQOCProblem-impl_8hpp.html":[10,0,2,0,0,8,2],
 "LQOCProblem-impl_8hpp_source.html":[10,0,2,0,0,8,2],
 "LQOCProblem_8hpp.html":[10,0,2,0,0,8,3],
@@ -109,6 +106,10 @@ var NAVTREEINDEX1 =
 "MpcTimeKeeper_8h.html":[10,0,2,0,0,5,5],
 "MpcTimeKeeper_8h.html#a442f3239d47f1fc4970936f080d32714":[10,0,2,0,0,5,5,1],
 "MpcTimeKeeper_8h_source.html":[10,0,2,0,0,5,5],
+"MultipleShooting-impl_8hpp.html":[10,0,2,0,0,6,0,1],
+"MultipleShooting-impl_8hpp_source.html":[10,0,2,0,0,6,0,1],
+"MultipleShooting_8hpp.html":[10,0,2,0,0,6,0,2],
+"MultipleShooting_8hpp_source.html":[10,0,2,0,0,6,0,2],
 "NLOCAlgorithm_8hpp.html":[10,0,2,0,0,6,1],
 "NLOCAlgorithm_8hpp_source.html":[10,0,2,0,0,6,1],
 "NLOCBackendBase-impl_8hpp.html":[10,0,2,0,0,6,2],
@@ -214,6 +215,10 @@ var NAVTREEINDEX1 =
 "SensitivityIntegratorCT_8h_source.html":[10,0,2,0,0,2,1,10],
 "ShotContainer_8h.html":[10,0,2,0,0,2,1,11],
 "ShotContainer_8h_source.html":[10,0,2,0,0,2,1,11],
+"SingleShooting-impl_8hpp.html":[10,0,2,0,0,6,0,3],
+"SingleShooting-impl_8hpp_source.html":[10,0,2,0,0,6,0,3],
+"SingleShooting_8hpp.html":[10,0,2,0,0,6,0,4],
+"SingleShooting_8hpp_source.html":[10,0,2,0,0,6,0,4],
 "SnoptSolver_8cpp.html":[10,0,3,0,0,0],
 "SnoptSolver_8h.html":[10,0,2,0,0,7,0,4],
 "SnoptSolver_8h_source.html":[10,0,2,0,0,7,0,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX1 =
 "SteadyStateKalmanFilter_8h_source.html":[10,0,2,0,0,3,19],
 "SwitchedLinearConstraintContainer-impl_8h.html":[10,0,2,0,0,0,11],
 "SwitchedLinearConstraintContainer-impl_8h_source.html":[10,0,2,0,0,0,11],
-"SwitchedLinearConstraintContainer_8h.html":[10,0,2,0,0,0,12],
-"SwitchedLinearConstraintContainer_8h_source.html":[10,0,2,0,0,0,12],
-"SymplecticTestPrespec_8cpp.html":[10,0,4,5,10],
-"SymplecticTestPrespec_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[10,0,4,5,10,0],
-"SymplecticTest_8cpp.html":[10,0,4,5,8],
-"SymplecticTest_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[10,0,4,5,8,0]
+"SwitchedLinearConstraintContainer_8h.html":[10,0,2,0,0,0,12]
 };

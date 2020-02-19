@@ -11,7 +11,6 @@ var classct_1_1optcon_1_1TermBase =
     [ "~TermBase", "classct_1_1optcon_1_1TermBase.html#a4bc1c1f22b2728b56fa0aee3b12095a6", null ],
     [ "clone", "classct_1_1optcon_1_1TermBase.html#ad2cc2d50ae94ae21c4ae895da6f25235", null ],
     [ "evaluate", "classct_1_1optcon_1_1TermBase.html#a32d8997645aac42b83590143f574af0a", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1TermBase.html#a136dc9b23f8c5cf8ad3fa857996b1003", null ],
     [ "eval", "classct_1_1optcon_1_1TermBase.html#af46efd91c4858b1f459d77c46322a3f8", null ],
     [ "isActiveAtTime", "classct_1_1optcon_1_1TermBase.html#a57f0a3a7d07d9ba1cdf57776aa9e23a8", null ],
     [ "computeActivation", "classct_1_1optcon_1_1TermBase.html#a493500edca79337d36fd8227d81fae13", null ],
@@ -23,11 +22,11 @@ var classct_1_1optcon_1_1TermBase =
     [ "loadConfigFile", "classct_1_1optcon_1_1TermBase.html#a4ab4b0c04d69a75dcc82944a5617e641", null ],
     [ "setTimeActivation", "classct_1_1optcon_1_1TermBase.html#a5170de048c671bccc909c78200ba5ff4", null ],
     [ "loadTimeActivation", "classct_1_1optcon_1_1TermBase.html#a5e9c6b59ed9558861da0ddda91b09398", null ],
-    [ "getName", "classct_1_1optcon_1_1TermBase.html#aeea81ea7bf30d9b8380e6845893a81c6", null ],
+    [ "getName", "classct_1_1optcon_1_1TermBase.html#a6400794b1b0b45681cfede24be4a2f56", null ],
     [ "setName", "classct_1_1optcon_1_1TermBase.html#a6dbf0dfe3a4c5aaa779a393224538ac4", null ],
     [ "updateReferenceState", "classct_1_1optcon_1_1TermBase.html#ace835f01123274936416abee042b9477", null ],
     [ "updateReferenceControl", "classct_1_1optcon_1_1TermBase.html#a7e0bc6b2be4620631ee4ae393100a293", null ],
-    [ "getReferenceState", "classct_1_1optcon_1_1TermBase.html#ac223f3eb0aa1dd268df8569b9798fdc8", null ],
+    [ "getReferenceState", "classct_1_1optcon_1_1TermBase.html#a01f62369fe224cb3776d46566c5eff4b", null ],
     [ "name_", "classct_1_1optcon_1_1TermBase.html#aa04a28a26ce83e6ef49bfc231bb62661", null ],
     [ "c_i_", "classct_1_1optcon_1_1TermBase.html#af348fb5fcb5f51957000ccd7b459b94d", null ]
 ];

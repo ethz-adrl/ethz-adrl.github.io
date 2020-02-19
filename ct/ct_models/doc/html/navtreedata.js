@@ -11,10 +11,10 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", "namespacemembers_type" ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -47,13 +47,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../../ct_core/doc/html/index.html",
-"HyA_2transform6d_8cpp.html#ab527b2a76479c7f6ef9545b3c41a3b37",
+"HyA_2transform6d_8cpp.html#aa9b5df21ca9479bf3deaa7da9845cd6c",
 "InvertedPendulum_2generated_2inverse__dynamics_8impl_8h_source.html",
 "classIKSolver.html#aa1e2af4ba963e6eb35d84b542a6b8118",
-"classiit_1_1HyQ_1_1JointDataMap.html#a7fc371275a21b83103a198a6535070fe",
-"classiit_1_1ct__DoubleInvertedPendulum_1_1dyn_1_1tpl_1_1JSIM.html#adaceb967ab77e946d8134e3c739798b8",
-"classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1InertiaProperties.html#a202185370b7f2f4afacc2216fabdc651",
-"namespacect_1_1models.html"
+"classiit_1_1HyQ_1_1JointDataMap.html#a5d3602079234c9c2c61e5152ab9041ee",
+"classiit_1_1ct__DoubleInvertedPendulum_1_1dyn_1_1tpl_1_1JSIM.html#acdc33bdb0313065dc253223e1185b745",
+"classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1InertiaProperties.html#a0ae8c0d414ae4cab341c8eada665d8be",
+"namespacect_1_1models_1_1DoubleInvertedPendulum.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

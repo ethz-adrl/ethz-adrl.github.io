@@ -13,7 +13,7 @@ var classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM =
     [ "update", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#a7f41181303056bb7a5675437430f8443", null ],
     [ "computeL", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#ad47309b3445ad2d8e8a0bc70be343c7d", null ],
     [ "computeInverse", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#acbd167c6a7f9f80fc6d0bd4175a93caa", null ],
-    [ "getL", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#a78d50f5d4518adf5a9cfb484a58d3308", null ],
-    [ "getInverse", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#ae91a40ab752dd5fe73ce423726fb9075", null ],
+    [ "getL", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#a2c3758dc4aedd916ad9a08856684372d", null ],
+    [ "getInverse", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#a522a6a493ddf59fc62f5919cc8217ee3", null ],
     [ "computeLInverse", "classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html#a3a3bc6e2330b9d56f09b2254238a38c8", null ]
 ];

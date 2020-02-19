@@ -14,7 +14,6 @@ var classct_1_1optcon_1_1StateConstraint =
     [ "~StateConstraint", "classct_1_1optcon_1_1StateConstraint.html#a05ebef9c9c925168d1e850e38cc6091a", null ],
     [ "clone", "classct_1_1optcon_1_1StateConstraint.html#a591fa9dea5887194bb607b470432175c", null ],
     [ "evaluate", "classct_1_1optcon_1_1StateConstraint.html#a31b1b72a849bb1ce6a34c65ac3cd5ec8", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1StateConstraint.html#abf8c5f723b3d8dc4cfd7a78af8c14d3d", null ],
     [ "jacobianState", "classct_1_1optcon_1_1StateConstraint.html#a078b356d6f38d2a8f73359af5c779ec5", null ],
     [ "jacobianInput", "classct_1_1optcon_1_1StateConstraint.html#ab383cf08a6b22c1949106535dba2d94e", null ],
     [ "getNumNonZerosJacobianState", "classct_1_1optcon_1_1StateConstraint.html#a0f98d1be5b8877c766e0d8d6d5d3d8a0", null ],

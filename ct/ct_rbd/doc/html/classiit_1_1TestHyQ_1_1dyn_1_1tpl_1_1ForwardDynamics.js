@@ -12,6 +12,6 @@ var classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics =
     [ "ForwardDynamics", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html#ad8160819c86fbd9288eef32f9c5f7e67", null ],
     [ "fd", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a5898a1d08fe6635c3a15bc0160bcde4c", null ],
     [ "fd", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a1e35631ac2973a394c7d93eccf9de22c", null ],
-    [ "setJointStatus", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a908fb5fbe4d35d1696d17e9e2f52a1b4", null ],
+    [ "setJointStatus", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html#ad94fcd9b851d4998e5f6ce54ec163195", null ],
     [ "Scalar", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a7d4ee7f631617690c278538ceaeab44d", null ]
 ];

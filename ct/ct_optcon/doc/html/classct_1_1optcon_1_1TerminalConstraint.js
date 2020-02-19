@@ -12,7 +12,6 @@ var classct_1_1optcon_1_1TerminalConstraint =
     [ "clone", "classct_1_1optcon_1_1TerminalConstraint.html#a0189fee393d28253023978b6c7cddfd2", null ],
     [ "getConstraintSize", "classct_1_1optcon_1_1TerminalConstraint.html#ac003e4a70aadc8af4bb899880c5f9eb0", null ],
     [ "evaluate", "classct_1_1optcon_1_1TerminalConstraint.html#a98866ae3652a6efca9fed187c6428e4b", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1TerminalConstraint.html#a26363c00d6162101b769380a1a97344b", null ],
     [ "jacobianState", "classct_1_1optcon_1_1TerminalConstraint.html#a04cc3c3496a4573e1731034612760e7a", null ],
     [ "jacobianInput", "classct_1_1optcon_1_1TerminalConstraint.html#a4086a696017658c637d09d5f604ebd53", null ],
     [ "getNumNonZerosJacobianState", "classct_1_1optcon_1_1TerminalConstraint.html#af6af19e1965e71a44fb2710bb1e22456", null ],

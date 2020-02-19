@@ -16,8 +16,6 @@ var namespacect_1_1core_1_1tpl =
     [ "TimeArray", "classct_1_1core_1_1tpl_1_1TimeArray.html", "classct_1_1core_1_1tpl_1_1TimeArray" ],
     [ "Timer", "classct_1_1core_1_1tpl_1_1Timer.html", "classct_1_1core_1_1tpl_1_1Timer" ],
     [ "TraitSelector", "structct_1_1core_1_1tpl_1_1TraitSelector.html", null ],
-    [ "TraitSelector< CppAD::AD< CppAD::cg::CG< double > > >", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01CppAD_1_1AD_3_01CppAD_1_1cg_1_1CG_3_01double_01_4_01_4_01_4.html", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01CppAD_1_1AD_3_01CppAD_1_1cg_1_1CG_3_01double_01_4_01_4_01_4" ],
-    [ "TraitSelector< CppAD::AD< double > >", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01CppAD_1_1AD_3_01double_01_4_01_4.html", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01CppAD_1_1AD_3_01double_01_4_01_4" ],
     [ "TraitSelector< double >", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01double_01_4.html", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01double_01_4" ],
     [ "TraitSelector< float >", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01float_01_4.html", "structct_1_1core_1_1tpl_1_1TraitSelector_3_01float_01_4" ]
 ];

@@ -12,7 +12,6 @@ var classct_1_1optcon_1_1TermStateBarrier =
     [ "~TermStateBarrier", "classct_1_1optcon_1_1TermStateBarrier.html#a729ca8a81c4c295a7c10e249896eca45", null ],
     [ "clone", "classct_1_1optcon_1_1TermStateBarrier.html#ab51fe207eade55d29dab74de81c22d13", null ],
     [ "evaluate", "classct_1_1optcon_1_1TermStateBarrier.html#affe3f72dd9bc859e4e83b1673b1325d5", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1TermStateBarrier.html#ad937408f0cf2db2b6f2e5d3c17ad3a6c", null ],
     [ "loadConfigFile", "classct_1_1optcon_1_1TermStateBarrier.html#acdade003c81e3f58ec0f48a33162e256", null ],
     [ "initialize", "classct_1_1optcon_1_1TermStateBarrier.html#a55e2b97e0129034d1be78eae6910ce57", null ],
     [ "state_vector_t", "classct_1_1optcon_1_1TermStateBarrier.html#aa8aae3fcc3cdb31b4c7e68a23ae1662a", null ],

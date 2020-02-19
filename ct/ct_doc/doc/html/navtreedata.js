@@ -52,7 +52,8 @@ var NAVTREE =
       [ "Motion Planning", "application_examples.html#Constrained", null ]
     ] ],
     [ "Change Log", "changelog.html", [
-      [ "Version 3.0.1", "changelog.html#cl_v301", null ],
+      [ "Version 3.0.2", "changelog.html#cl_v302", null ],
+      [ "Version 3.0.2", "changelog.html#cl_v301", null ],
       [ "Version 3.0.0", "changelog.html#cl_v300", null ],
       [ "Version 2.3", "changelog.html#cl_v23", null ],
       [ "Version 2.2", "changelog.html#cl_v22", null ],

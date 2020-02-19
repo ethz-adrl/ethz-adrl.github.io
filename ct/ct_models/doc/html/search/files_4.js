@@ -9,7 +9,7 @@ var searchData=
   ['endeffector_2eh',['EndEffector.h',['../../../../ct_rbd/doc/html/EndEffector_8h.html',1,'']]],
   ['estimatorbase_2eh',['EstimatorBase.h',['../../../../ct_optcon/doc/html/EstimatorBase_8h.html',1,'']]],
   ['eventhandler_2eh',['EventHandler.h',['../../../../ct_core/doc/html/EventHandler_8h.html',1,'']]],
-  ['exampledir_2eh',['exampleDir.h',['../exampleDir_8h.html',1,'(Global Namespace)'],['../../../../ct_optcon/doc/html/exampleDir_8h.html',1,'(Global Namespace)']]],
+  ['exampledir_2eh',['exampleDir.h',['../../../../ct_optcon/doc/html/exampleDir_8h.html',1,'']]],
   ['extendedkalmanfilter_2dimpl_2eh',['ExtendedKalmanFilter-impl.h',['../../../../ct_optcon/doc/html/ExtendedKalmanFilter-impl_8h.html',1,'']]],
   ['extendedkalmanfilter_2eh',['ExtendedKalmanFilter.h',['../../../../ct_optcon/doc/html/ExtendedKalmanFilter_8h.html',1,'']]],
   ['externallydriventimer_2eh',['ExternallyDrivenTimer.h',['../../../../ct_core/doc/html/ExternallyDrivenTimer_8h.html',1,'']]]

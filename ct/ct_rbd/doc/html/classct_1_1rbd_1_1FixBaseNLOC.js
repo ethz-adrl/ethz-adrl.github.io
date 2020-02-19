@@ -16,7 +16,7 @@ var classct_1_1rbd_1_1FixBaseNLOC =
     [ "JointAcceleration_t", "classct_1_1rbd_1_1FixBaseNLOC.html#a9feef282a9142eb1adf448e5da5bf16f", null ],
     [ "FixBaseNLOC", "classct_1_1rbd_1_1FixBaseNLOC.html#a3d3c5d24afad277ddd115fe79e962a09", null ],
     [ "FixBaseNLOC", "classct_1_1rbd_1_1FixBaseNLOC.html#a47cb5a7538ac636f461b626cd0bea846", null ],
-    [ "FixBaseNLOC", "classct_1_1rbd_1_1FixBaseNLOC.html#abe180d80eca03db6aead57908d4c4ed6", null ],
+    [ "FixBaseNLOC", "classct_1_1rbd_1_1FixBaseNLOC.html#adfcb0958ec14d4ae02a6a670bfc556ee", null ],
     [ "initialize", "classct_1_1rbd_1_1FixBaseNLOC.html#a008f2a3f1730e916792cdfeeb53ff5ac", null ],
     [ "initializeSteadyPose", "classct_1_1rbd_1_1FixBaseNLOC.html#a0f8f7921156e0ea9984f7be7f814f124", null ],
     [ "initializeDirectInterpolation", "classct_1_1rbd_1_1FixBaseNLOC.html#abc47e4a71206227a548896212f61e277", null ],
@@ -28,7 +28,7 @@ var classct_1_1rbd_1_1FixBaseNLOC =
     [ "getFeedbackArray", "classct_1_1rbd_1_1FixBaseNLOC.html#a0529778a075174b15ffeed717156f088", null ],
     [ "getControlVectorArray", "classct_1_1rbd_1_1FixBaseNLOC.html#aca272b5f9a253634fa7c1026070a1b73", null ],
     [ "getStateVectorArray", "classct_1_1rbd_1_1FixBaseNLOC.html#ab35aa238dda37a24b26e1a8a109ec693", null ],
-    [ "getSettings", "classct_1_1rbd_1_1FixBaseNLOC.html#a0439e43cd8068530a20572b948029fc7", null ],
+    [ "getSettings", "classct_1_1rbd_1_1FixBaseNLOC.html#ade8e153f11bedc8ee62144f1e46f9778", null ],
     [ "changeCostFunction", "classct_1_1rbd_1_1FixBaseNLOC.html#a1ff6e061be9f8456b1dcf9b087c19827", null ],
     [ "getSolver", "classct_1_1rbd_1_1FixBaseNLOC.html#a09aa45eff37b1de4b577ecade2dbe5ef", null ]
 ];

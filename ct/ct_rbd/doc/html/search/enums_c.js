@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['velocity_5fsmoothing',['VELOCITY_SMOOTHING',['../classct_1_1rbd_1_1EEContactModel.html#a333f4cbcad54b1c1e68c03f718ed86ca',1,'ct::rbd::EEContactModel']]]
+  ['type',['TYPE',['../../../../ct_optcon/doc/html/structct_1_1optcon_1_1LineSearchSettings.html#a393c6923e7595cee5066f126facfc110',1,'ct::optcon::LineSearchSettings']]]
 ];

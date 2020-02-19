@@ -1,6 +1,5 @@
 var namespacect_1_1rbd =
 [
-    [ "internal", "namespacect_1_1rbd_1_1internal.html", "namespacect_1_1rbd_1_1internal" ],
     [ "TARGET_NS", "namespacect_1_1rbd_1_1TARGET__NS.html", "namespacect_1_1rbd_1_1TARGET__NS" ],
     [ "tpl", "namespacect_1_1rbd_1_1tpl.html", "namespacect_1_1rbd_1_1tpl" ],
     [ "ActuatorDynamics", "classct_1_1rbd_1_1ActuatorDynamics.html", "classct_1_1rbd_1_1ActuatorDynamics" ],
@@ -51,8 +50,5 @@ var namespacect_1_1rbd =
     [ "SimpleArmTrajectoryGenerator", "classct_1_1rbd_1_1SimpleArmTrajectoryGenerator.html", "classct_1_1rbd_1_1SimpleArmTrajectoryGenerator" ],
     [ "SpatialForceVector", "classct_1_1rbd_1_1SpatialForceVector.html", "classct_1_1rbd_1_1SpatialForceVector" ],
     [ "TermTaskspaceGeometricJacobian", "classct_1_1rbd_1_1TermTaskspaceGeometricJacobian.html", "classct_1_1rbd_1_1TermTaskspaceGeometricJacobian" ],
-    [ "TermTaskspacePose", "classct_1_1rbd_1_1TermTaskspacePose.html", "classct_1_1rbd_1_1TermTaskspacePose" ],
-    [ "TermTaskspacePoseCG", "classct_1_1rbd_1_1TermTaskspacePoseCG.html", "classct_1_1rbd_1_1TermTaskspacePoseCG" ],
-    [ "TermTaskspacePosition", "classct_1_1rbd_1_1TermTaskspacePosition.html", "classct_1_1rbd_1_1TermTaskspacePosition" ],
     [ "WholeBodyController", "classct_1_1rbd_1_1WholeBodyController.html", "classct_1_1rbd_1_1WholeBodyController" ]
 ];

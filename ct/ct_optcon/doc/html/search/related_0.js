@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['action',['Action',['../../../../ct_optcon/doc/html/classtesting_1_1Action.html#a62bc48ff11968b6e45d21c4b49f349fb',1,'testing::Action::Action()'],['../../../../ct_optcon/doc/html/classtesting_1_1Action.html#a62bc48ff11968b6e45d21c4b49f349fb',1,'Action&lt; OriginalFunction &gt;::Action()']]],
-  ['addglobaltestenvironment',['AddGlobalTestEnvironment',['../../../../ct_optcon/doc/html/classtesting_1_1UnitTest.html#a5ec26e4c31220ff8e769cc09689a4d6d',1,'testing::UnitTest']]]
+  ['integrator',['Integrator',['../../../../ct_optcon/doc/html/classct_1_1core_1_1Observer.html#a96b85554eb75173978c5938b0ceafc4b',1,'ct::core::Observer::Integrator()'],['../../../../ct_optcon/doc/html/classct_1_1core_1_1Observer.html#a96b85554eb75173978c5938b0ceafc4b',1,'Observer&lt; POS_DIM+VEL_DIM, SCALAR &gt;::Integrator()']]]
 ];

@@ -13,6 +13,6 @@ var classct_1_1rbd_1_1JointLimitConstraints =
     [ "sparseHessianValues", "classct_1_1rbd_1_1JointLimitConstraints.html#a48b969242f35ca0cace02d97216df9b9", null ],
     [ "getLowerBound", "classct_1_1rbd_1_1JointLimitConstraints.html#aca91be66084eaf58b069030a6dd6a790", null ],
     [ "getUpperBound", "classct_1_1rbd_1_1JointLimitConstraints.html#a2d461adf07a1b77376db2e75317c205d", null ],
-    [ "getLowerBound", "classct_1_1rbd_1_1JointLimitConstraints.html#a3784090972d406a51a248e587548e836", null ],
-    [ "getUpperBound", "classct_1_1rbd_1_1JointLimitConstraints.html#a9e044f49c3a805c42d19a9a41eb5ac22", null ]
+    [ "getLowerBound", "classct_1_1rbd_1_1JointLimitConstraints.html#ac83f633d21d6af0582ec1bd98b7f3998", null ],
+    [ "getUpperBound", "classct_1_1rbd_1_1JointLimitConstraints.html#a0d8200a95acc30fae8927ee15f1a815d", null ]
 ];

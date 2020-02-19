@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['targetdirectories_2etxt',['TargetDirectories.txt',['../TargetDirectories_8txt.html',1,'(Global Namespace)'],['../../../../ct_core/doc/html/TargetDirectories_8txt.html',1,'(Global Namespace)'],['../../../../ct_optcon/doc/html/TargetDirectories_8txt.html',1,'(Global Namespace)'],['../../../../ct_rbd/doc/html/TargetDirectories_8txt.html',1,'(Global Namespace)']]],
   ['taskspacecostfunctiontest_2ecpp',['TaskspaceCostFunctionTest.cpp',['../../../../ct_rbd/doc/html/TaskspaceCostFunctionTest_8cpp.html',1,'']]],
   ['taskspacecostfunctiontest_2eh',['TaskspaceCostFunctionTest.h',['../../../../ct_rbd/doc/html/TaskspaceCostFunctionTest_8h.html',1,'']]],
   ['templatedir_2eh',['templateDir.h',['../../../../ct_core/doc/html/templateDir_8h.html',1,'']]],
@@ -52,17 +51,11 @@ var searchData=
   ['timearray_2eh',['TimeArray.h',['../../../../ct_core/doc/html/TimeArray_8h.html',1,'']]],
   ['timegrid_2eh',['TimeGrid.h',['../../../../ct_optcon/doc/html/TimeGrid_8h.html',1,'']]],
   ['timer_2eh',['Timer.h',['../../../../ct_core/doc/html/Timer_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../HyA_2generated_2traits_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../QuadrotorWithLoad_2generated_2traits_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../DoubleInvertedPendulum_2generated_2traits_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../InvertedPendulum_2generated_2traits_8h.html',1,'']]],
-  ['traits_2eh',['traits.h',['../../../../ct_rbd/doc/html/testhyq_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_rbd/doc/html/testIrb4600_2generated_2traits_8h.html',1,'(Global Namespace)']]],
-  ['traits_2eh',['traits.h',['../HyQ_2generated_2traits_8h.html',1,'']]],
+  ['traits_2eh',['traits.h',['../DoubleInvertedPendulum_2generated_2traits_8h.html',1,'(Global Namespace)'],['../HyA_2generated_2traits_8h.html',1,'(Global Namespace)'],['../HyQ_2generated_2traits_8h.html',1,'(Global Namespace)'],['../InvertedPendulum_2generated_2traits_8h.html',1,'(Global Namespace)'],['../QuadrotorWithLoad_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_rbd/doc/html/testhyq_2generated_2traits_8h.html',1,'(Global Namespace)'],['../../../../ct_rbd/doc/html/testIrb4600_2generated_2traits_8h.html',1,'(Global Namespace)']]],
   ['traitselector_2eh',['TraitSelector.h',['../../../../ct_core/doc/html/TraitSelector_8h.html',1,'(Global Namespace)'],['../../../../ct_rbd/doc/html/TraitSelector_8h.html',1,'(Global Namespace)']]],
   ['traitselectorspecs_2eh',['TraitSelectorSpecs.h',['../../../../ct_core/doc/html/TraitSelectorSpecs_8h.html',1,'(Global Namespace)'],['../../../../ct_rbd/doc/html/TraitSelectorSpecs_8h.html',1,'(Global Namespace)']]],
   ['trajectorybase_2eh',['TrajectoryBase.h',['../../../../ct_core/doc/html/TrajectoryBase_8h.html',1,'']]],
-  ['transform6d_2ecpp',['transform6d.cpp',['../Irb4600_2transform6d_8cpp.html',1,'']]],
-  ['transform6d_2ecpp',['transform6d.cpp',['../HyA_2transform6d_8cpp.html',1,'']]],
+  ['transform6d_2ecpp',['transform6d.cpp',['../HyA_2transform6d_8cpp.html',1,'(Global Namespace)'],['../Irb4600_2transform6d_8cpp.html',1,'(Global Namespace)']]],
   ['transformsbase_2eh',['TransformsBase.h',['../../../../ct_rbd/doc/html/TransformsBase_8h.html',1,'']]],
   ['types_2eh',['types.h',['../../../../ct_rbd/doc/html/types_8h.html',1,'']]]
 ];

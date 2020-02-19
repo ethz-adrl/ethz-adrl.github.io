@@ -246,8 +246,8 @@ var NAVTREEINDEX3 =
 "classct_1_1rbd_1_1QuadrotorWithLoadFDSystem.html#af771debe80d115aa4eac2eb4709c813b":[8,0,0,1,2,9],
 "classes.html":[8,1],
 "classiit_1_1HyQ_1_1JointDataMap.html":[8,0,1,4,2],
+"classiit_1_1HyQ_1_1JointDataMap.html#a1e21c6896af9ff80d33eaf59412ce8ff":[8,0,1,4,2,6],
 "classiit_1_1HyQ_1_1JointDataMap.html#a2d7a92c2bd2ace1831ab8e40dfb14d01":[8,0,1,4,2,0],
 "classiit_1_1HyQ_1_1JointDataMap.html#a302cd23b99792d701b67047301fc07da":[8,0,1,4,2,4],
-"classiit_1_1HyQ_1_1JointDataMap.html#a48e0b1da80757363b2971c5d13bac8f6":[8,0,1,4,2,1],
-"classiit_1_1HyQ_1_1JointDataMap.html#a5d3602079234c9c2c61e5152ab9041ee":[8,0,1,4,2,3]
+"classiit_1_1HyQ_1_1JointDataMap.html#a48e0b1da80757363b2971c5d13bac8f6":[8,0,1,4,2,1]
 };

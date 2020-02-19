@@ -14,7 +14,6 @@ var classct_1_1optcon_1_1TermMixed =
     [ "setWeights", "classct_1_1optcon_1_1TermMixed.html#adeb47c0ba1a939519064edb7a21acde8", null ],
     [ "setStateAndControlReference", "classct_1_1optcon_1_1TermMixed.html#a6340f3bfa34d99895f02ab771a25a581", null ],
     [ "evaluate", "classct_1_1optcon_1_1TermMixed.html#a8019c6e8c50ba2068b9bf7696ee2c9d0", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1TermMixed.html#a02708e97544083580dd17ff584c30c31", null ],
     [ "stateDerivative", "classct_1_1optcon_1_1TermMixed.html#a1621e00357f8842f94d252e1428996f9", null ],
     [ "stateSecondDerivative", "classct_1_1optcon_1_1TermMixed.html#a91f546efc4601f4ca94f0e0359fa9496", null ],
     [ "controlDerivative", "classct_1_1optcon_1_1TermMixed.html#af013c6122def478e0f17537fada260e9", null ],

@@ -12,7 +12,7 @@ var classct_1_1optcon_1_1EstimatorBase =
     [ "update", "classct_1_1optcon_1_1EstimatorBase.html#a0d250f37e282400b61fc2e12ad4fde24", null ],
     [ "setSystemModel", "classct_1_1optcon_1_1EstimatorBase.html#a2d50f95e701db023f969463bb652eb36", null ],
     [ "setMeasurementModel", "classct_1_1optcon_1_1EstimatorBase.html#ad90413f02e17a683ec1e0c17cf5b5426", null ],
-    [ "getEstimate", "classct_1_1optcon_1_1EstimatorBase.html#a59c0039fc17944207a29ef12ee1674f2", null ],
+    [ "getEstimate", "classct_1_1optcon_1_1EstimatorBase.html#a0d5f36d0a438be4b908deda7c942cbb6", null ],
     [ "setEstimate", "classct_1_1optcon_1_1EstimatorBase.html#ac6ff635fd56a476da484a2978316e5a1", null ],
     [ "f_", "classct_1_1optcon_1_1EstimatorBase.html#a52585501f689dba484a41b2eb72d97e7", null ],
     [ "h_", "classct_1_1optcon_1_1EstimatorBase.html#a72f5b34eeb45fbb3d6d35ece0a2af1a7", null ],

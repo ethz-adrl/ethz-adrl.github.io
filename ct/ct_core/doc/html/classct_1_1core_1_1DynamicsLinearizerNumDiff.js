@@ -8,7 +8,7 @@ var classct_1_1core_1_1DynamicsLinearizerNumDiff =
     [ "DynamicsLinearizerNumDiff", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#a24a89a32e4ed1176298f83a5a7993c91", null ],
     [ "getDerivativeState", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#ab00f68423949f2f83a2aae0acdd66a10", null ],
     [ "getDerivativeControl", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#ae89ecb5a034a07779306ade316cace3b", null ],
-    [ "getDoubleSidedDerivativeFlag", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#a4d2292413e2551d526788c43aca9ffd2", null ],
+    [ "getDoubleSidedDerivativeFlag", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#a813b3127a8c227a568e9819cd33f2419", null ],
     [ "state_vector_t", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#a5331d4c833e1989ea20640e239314428", null ],
     [ "dynamics_fct_", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#a3de4d3fe6afc57b12969682802667d8c", null ],
     [ "doubleSidedDerivative_", "classct_1_1core_1_1DynamicsLinearizerNumDiff.html#a4bc2f5349633c9b79c0ffeb089855547", null ],

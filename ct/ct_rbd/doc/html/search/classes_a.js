@@ -1,27 +1,14 @@
 var searchData=
 [
-  ['jacobianbase',['JacobianBase',['../classiit_1_1rbd_1_1JacobianBase.html',1,'iit::rbd']]],
-  ['jacobianbase',['JacobianBase',['../classct_1_1rbd_1_1tpl_1_1JacobianBase.html',1,'ct::rbd::tpl']]],
+  ['jacobianbase',['JacobianBase',['../classiit_1_1rbd_1_1JacobianBase.html',1,'iit::rbd::JacobianBase&lt; State, Cols, ActualMatrix &gt;'],['../classct_1_1rbd_1_1tpl_1_1JacobianBase.html',1,'ct::rbd::tpl::JacobianBase&lt; NUM_OUTPUTS, NUM_JOINTS, SCALAR &gt;']]],
   ['jacobianbase_3c_20num_5foutputs_2c_20num_5fjoints_2c_20scalar_20_3e',['JacobianBase&lt; NUM_OUTPUTS, NUM_JOINTS, Scalar &gt;',['../classct_1_1rbd_1_1tpl_1_1JacobianBase.html',1,'ct::rbd::tpl']]],
   ['jacobisingularity',['JacobiSingularity',['../classct_1_1rbd_1_1JacobiSingularity.html',1,'ct::rbd']]],
   ['jointacceleration',['JointAcceleration',['../classct_1_1rbd_1_1JointAcceleration.html',1,'ct::rbd']]],
-  ['jointdatamap',['JointDataMap',['../../../../ct_models/doc/html/classiit_1_1ct__DoubleInvertedPendulum_1_1JointDataMap.html',1,'iit::ct_DoubleInvertedPendulum']]],
-  ['jointdatamap',['JointDataMap',['../../../../ct_models/doc/html/classiit_1_1ct__InvertedPendulum_1_1JointDataMap.html',1,'iit::ct_InvertedPendulum']]],
-  ['jointdatamap',['JointDataMap',['../../../../ct_models/doc/html/classiit_1_1ct__quadrotor_1_1JointDataMap.html',1,'iit::ct_quadrotor']]],
-  ['jointdatamap',['JointDataMap',['../../../../ct_models/doc/html/classiit_1_1ct__HyA_1_1JointDataMap.html',1,'iit::ct_HyA']]],
-  ['jointdatamap',['JointDataMap',['../classiit_1_1TestHyQ_1_1JointDataMap.html',1,'iit::TestHyQ']]],
-  ['jointdatamap',['JointDataMap',['../../../../ct_models/doc/html/classiit_1_1HyQ_1_1JointDataMap.html',1,'iit::HyQ']]],
-  ['jointdatamap',['JointDataMap',['../classiit_1_1testirb4600_1_1JointDataMap.html',1,'iit::testirb4600']]],
+  ['jointdatamap',['JointDataMap',['../classiit_1_1testirb4600_1_1JointDataMap.html',1,'iit::testirb4600::JointDataMap&lt; T &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__HyA_1_1JointDataMap.html',1,'iit::ct_HyA::JointDataMap&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1HyQ_1_1JointDataMap.html',1,'iit::HyQ::JointDataMap&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__quadrotor_1_1JointDataMap.html',1,'iit::ct_quadrotor::JointDataMap&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__DoubleInvertedPendulum_1_1JointDataMap.html',1,'iit::ct_DoubleInvertedPendulum::JointDataMap&lt; class &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__InvertedPendulum_1_1JointDataMap.html',1,'iit::ct_InvertedPendulum::JointDataMap&lt; class &gt;'],['../classiit_1_1TestHyQ_1_1JointDataMap.html',1,'iit::TestHyQ::JointDataMap&lt; T &gt;']]],
   ['jointlimitconstraints',['JointLimitConstraints',['../classct_1_1rbd_1_1JointLimitConstraints.html',1,'ct::rbd']]],
   ['jointpositionpidcontroller',['JointPositionPIDController',['../classct_1_1rbd_1_1JointPositionPIDController.html',1,'ct::rbd']]],
   ['jointstate',['JointState',['../classct_1_1rbd_1_1JointState.html',1,'ct::rbd']]],
   ['jointstate_3c_20njoints_2c_20double_20_3e',['JointState&lt; NJOINTS, double &gt;',['../classct_1_1rbd_1_1JointState.html',1,'ct::rbd']]],
   ['jointstate_3c_20njoints_2c_20scalar_20_3e',['JointState&lt; NJOINTS, Scalar &gt;',['../classct_1_1rbd_1_1JointState.html',1,'ct::rbd']]],
-  ['jsim',['JSIM',['../../../../ct_models/doc/html/classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_HyA::dyn::tpl']]],
-  ['jsim',['JSIM',['../../../../ct_models/doc/html/classiit_1_1HyQ_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::HyQ::dyn::tpl']]],
-  ['jsim',['JSIM',['../classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::TestHyQ::dyn::tpl']]],
-  ['jsim',['JSIM',['../classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::testirb4600::dyn::tpl']]],
-  ['jsim',['JSIM',['../../../../ct_models/doc/html/classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_quadrotor::dyn::tpl']]],
-  ['jsim',['JSIM',['../../../../ct_models/doc/html/classiit_1_1ct__DoubleInvertedPendulum_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_DoubleInvertedPendulum::dyn::tpl']]],
-  ['jsim',['JSIM',['../../../../ct_models/doc/html/classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_InvertedPendulum::dyn::tpl']]]
+  ['jsim',['JSIM',['../classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::testirb4600::dyn::tpl::JSIM&lt; TRAIT &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__HyA_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_HyA::dyn::tpl::JSIM&lt; TRAIT &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_InvertedPendulum::dyn::tpl::JSIM&lt; TRAIT &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__quadrotor_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_quadrotor::dyn::tpl::JSIM&lt; TRAIT &gt;'],['../../../../ct_models/doc/html/classiit_1_1ct__DoubleInvertedPendulum_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::ct_DoubleInvertedPendulum::dyn::tpl::JSIM&lt; TRAIT &gt;'],['../../../../ct_models/doc/html/classiit_1_1HyQ_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::HyQ::dyn::tpl::JSIM&lt; TRAIT &gt;'],['../classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1JSIM.html',1,'iit::TestHyQ::dyn::tpl::JSIM&lt; TRAIT &gt;']]]
 ];

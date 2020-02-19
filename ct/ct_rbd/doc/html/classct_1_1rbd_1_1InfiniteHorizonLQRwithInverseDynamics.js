@@ -17,8 +17,8 @@ var classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics =
     [ "getK", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#a6bf63e288e78e67eaaa6f41f61b7c89c", null ],
     [ "designInfiniteHorizonLQR", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#a35556ee4e4c5dd2f4acdcd01ec0888b5", null ],
     [ "designInfiniteHorizonLQR", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#ab8454117d0e6c6a777134de26b468239", null ],
-    [ "getIDTorques", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#a599a2590011fce999ff1ff5078488d25", null ],
-    [ "getStateSetpoint", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#ad1b1c809506a104e02d19259c82f362d", null ],
+    [ "getIDTorques", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#a9ab716203b2c49c05dab5771bdc720e5", null ],
+    [ "getStateSetpoint", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#abee8b66944996c6562e0cf54d9c714ad", null ],
     [ "setNonlinearSystem", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#a317e580daf20c8149a9bd33d99b91d5e", null ],
     [ "setLinearSystem", "classct_1_1rbd_1_1InfiniteHorizonLQRwithInverseDynamics.html#a23d8bb95e9bcfd5b35f63fdc1a81badc", null ]
 ];

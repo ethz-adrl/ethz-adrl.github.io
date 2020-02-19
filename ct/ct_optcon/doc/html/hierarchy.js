@@ -26,12 +26,10 @@ var hierarchy =
     ] ],
     [ "ct::optcon::ConstraintContainerBase< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1ConstraintContainerBase.html", [
       [ "ct::optcon::LinearConstraintContainer< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1LinearConstraintContainer.html", [
-        [ "ct::optcon::ConstraintContainerAD< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1ConstraintContainerAD.html", null ],
         [ "ct::optcon::ConstraintContainerAnalytical< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1ConstraintContainerAnalytical.html", null ],
         [ "ct::optcon::SwitchedLinearConstraintContainer< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1SwitchedLinearConstraintContainer.html", null ]
       ] ]
     ] ],
-    [ "ControlledSystem< POS_DIM+VEL_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
     [ "ct::core::Controller< STATE_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1Controller.html", [
       [ "ct::optcon::ControllerDms< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1ControllerDms.html", null ]
     ] ],
@@ -40,7 +38,6 @@ var hierarchy =
     ] ],
     [ "ct::optcon::CostFunction< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1CostFunction.html", [
       [ "ct::optcon::CostFunctionQuadratic< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1CostFunctionQuadratic.html", [
-        [ "ct::optcon::CostFunctionAD< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1CostFunctionAD.html", null ],
         [ "ct::optcon::CostFunctionAnalytical< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1CostFunctionAnalytical.html", null ],
         [ "ct::optcon::CostFunctionQuadraticSimple< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1CostFunctionQuadraticSimple.html", null ]
       ] ]
@@ -104,8 +101,8 @@ var hierarchy =
     [ "ct::optcon::tpl::MpcTimeKeeper< SCALAR >", "classct_1_1optcon_1_1tpl_1_1MpcTimeKeeper.html", null ],
     [ "ct::optcon::tpl::MpcTimeKeeper< Scalar_t >", "classct_1_1optcon_1_1tpl_1_1MpcTimeKeeper.html", null ],
     [ "ct::optcon::NLOCAlgorithm< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1NLOCAlgorithm.html", [
-      [ "ct::optcon::GNMS< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1GNMS.html", null ],
-      [ "ct::optcon::iLQR< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1iLQR.html", null ]
+      [ "ct::optcon::MultipleShooting< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1MultipleShooting.html", null ],
+      [ "ct::optcon::SingleShooting< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1SingleShooting.html", null ]
     ] ],
     [ "ct::optcon::NLOCBackendBase< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1NLOCBackendBase.html", [
       [ "ct::optcon::NLOCBackendMP< STATE_DIM, CONTROL_DIM, P_DIM, V_DIM, SCALAR, CONTINUOUS >", "classct_1_1optcon_1_1NLOCBackendMP.html", null ],
@@ -179,6 +176,8 @@ var hierarchy =
       [ "ct::core::ControlledSystem< 8, 3 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", [
         [ "LinkedMasses2", "classLinkedMasses2.html", null ]
       ] ],
+      [ "ct::core::ControlledSystem< POS_DIM+VEL_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
+      [ "ct::core::ControlledSystem< POS_DIM+VEL_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
       [ "ct::core::ControlledSystem< STATE_DIM+DIST_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", [
         [ "ct::optcon::DisturbedSystem< STATE_DIM, DIST_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1DisturbedSystem.html", null ],
         [ "ct::optcon::DisturbedSystem< STATE_DIM, CONTROL_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1DisturbedSystem.html", [
@@ -193,11 +192,11 @@ var hierarchy =
         [ "ct::optcon::example::tpl::LinearOscillator< SCALAR >", "classct_1_1optcon_1_1example_1_1tpl_1_1LinearOscillator.html", null ]
       ] ],
       [ "ct::core::ControlledSystem< STATE_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", [
-        [ "ct::core::LinearSystem< STATE_DIM, CONTROL_DIM, SCALAR >", "../../../ct_optcon/doc/html/classct_1_1core_1_1LinearSystem.html", [
-          [ "ct::optcon::example::SpringLoadedMassLinear", "classct_1_1optcon_1_1example_1_1SpringLoadedMassLinear.html", null ]
-        ] ],
         [ "ct::core::LinearSystem< 1, 1 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1LinearSystem.html", [
           [ "ct::optcon::example::DiehlSystemLinear", "classct_1_1optcon_1_1example_1_1DiehlSystemLinear.html", null ]
+        ] ],
+        [ "ct::core::LinearSystem< 2, 1 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1LinearSystem.html", [
+          [ "ct::optcon::example::SpringLoadedMassLinear", "classct_1_1optcon_1_1example_1_1SpringLoadedMassLinear.html", null ]
         ] ],
         [ "ct::core::LinearSystem< 8, 3 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1LinearSystem.html", [
           [ "LinkedMasses", "classLinkedMasses.html", null ]
@@ -213,7 +212,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "System< STATE_DIM, double >", "../../../ct_optcon/doc/html/classct_1_1core_1_1System.html", [
-      [ "ct::core::ControlledSystem< 2, 1 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ]
+      [ "ct::core::ControlledSystem< 2, 1 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", null ],
+      [ "ControlledSystem< STATE_DIM, CONTROL_DIM, double >", "../../../ct_optcon/doc/html/classct_1_1core_1_1ControlledSystem.html", [
+        [ "ct::core::LinearSystem< 2, 1 >", "../../../ct_optcon/doc/html/classct_1_1core_1_1LinearSystem.html", null ]
+      ] ]
     ] ],
     [ "ct::optcon::SystemModelBase< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1SystemModelBase.html", [
       [ "ct::optcon::CTSystemModel< STATE_DIM, CONTROL_DIM, SCALAR >", "classct_1_1optcon_1_1CTSystemModel.html", null ]

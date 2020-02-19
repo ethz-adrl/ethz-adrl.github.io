@@ -9,7 +9,7 @@ var classct_1_1rbd_1_1JointAcceleration =
     [ "getSize", "classct_1_1rbd_1_1JointAcceleration.html#aaa80890765b523eaa2097f33e9269c49", null ],
     [ "operator()", "classct_1_1rbd_1_1JointAcceleration.html#a02ef16505436685d4d7b913216fa6cf3", null ],
     [ "getAcceleration", "classct_1_1rbd_1_1JointAcceleration.html#a8d3d99b2af416f1d65ddb2e329ba1cf0", null ],
-    [ "getAcceleration", "classct_1_1rbd_1_1JointAcceleration.html#aba699612a27e8f651ea4d07e4828952e", null ],
+    [ "getAcceleration", "classct_1_1rbd_1_1JointAcceleration.html#a8648c9c080572f97aefc227fc9b11bc4", null ],
     [ "setAcceleration", "classct_1_1rbd_1_1JointAcceleration.html#a6de59485d1ba11b5c519ab3bf5abd8b0", null ],
     [ "setZero", "classct_1_1rbd_1_1JointAcceleration.html#a780e3989a9f421df3557cc1ecce2acc2", null ],
     [ "acceleration_", "classct_1_1rbd_1_1JointAcceleration.html#ac4934f1b46736ddf5aefe4c52ffdd286", null ]

@@ -13,5 +13,6 @@ var searchData=
   ['mpcsimulator',['MPCSimulator',['../../../../ct_models/doc/html/classMPCSimulator.html',1,'']]],
   ['mpctimehorizon',['MpcTimeHorizon',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1tpl_1_1MpcTimeHorizon.html',1,'ct::optcon::tpl']]],
   ['mpctimekeeper',['MpcTimeKeeper',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1tpl_1_1MpcTimeKeeper.html',1,'ct::optcon::tpl']]],
-  ['mpctimekeeper_3c_20scalar_5ft_20_3e',['MpcTimeKeeper&lt; Scalar_t &gt;',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1tpl_1_1MpcTimeKeeper.html',1,'']]]
+  ['mpctimekeeper_3c_20scalar_5ft_20_3e',['MpcTimeKeeper&lt; Scalar_t &gt;',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1tpl_1_1MpcTimeKeeper.html',1,'']]],
+  ['multipleshooting',['MultipleShooting',['../../../../ct_optcon/doc/html/classct_1_1optcon_1_1MultipleShooting.html',1,'ct::optcon']]]
 ];

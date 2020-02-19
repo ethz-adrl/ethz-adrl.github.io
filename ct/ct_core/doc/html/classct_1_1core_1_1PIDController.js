@@ -5,7 +5,7 @@ var classct_1_1core_1_1PIDController =
     [ "PIDController", "classct_1_1core_1_1PIDController.html#a371df9629459efa803c2ef0c2911c2f4", null ],
     [ "PIDController", "classct_1_1core_1_1PIDController.html#a56ee1f5ff89186ee1d77bf84c4f9855b", null ],
     [ "~PIDController", "classct_1_1core_1_1PIDController.html#abd0bcb494230a5fbb85ba9e129d0d1bc", null ],
-    [ "clone", "classct_1_1core_1_1PIDController.html#a7983f540581fa63a01c111674f35dd27", null ],
+    [ "clone", "classct_1_1core_1_1PIDController.html#a7293b91b8f6d496e57d31a49789f6198", null ],
     [ "setInitialState", "classct_1_1core_1_1PIDController.html#a0f975dce8498eb92ac7f3201cbdb5442", null ],
     [ "setDesiredState", "classct_1_1core_1_1PIDController.html#adab773d4b19a437c5bf205e15c8b0ad5", null ],
     [ "setDesiredState", "classct_1_1core_1_1PIDController.html#adb785c2d6360bd2738b2244ba6789463", null ],

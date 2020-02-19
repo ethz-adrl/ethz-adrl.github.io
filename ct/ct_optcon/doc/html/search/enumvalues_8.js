@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['matrix_5fexponential',['MATRIX_EXPONENTIAL',['../../../../ct_optcon/doc/html/structct_1_1core_1_1SensitivityApproximationSettings.html#a851b773408d711a6ddecee9b304ae733aba7cece9ba72fa1424f77dc38de84bfb',1,'ct::core::SensitivityApproximationSettings']]]
+  ['keep_5ftime_5fand_5fgrid',['KEEP_TIME_AND_GRID',['../classct_1_1optcon_1_1DmsSettings.html#a6b0474bb8d509037ab956044897fad10a7394e382068b4fe657004bf5169927ec',1,'ct::optcon::DmsSettings']]]
 ];

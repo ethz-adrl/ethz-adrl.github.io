@@ -28,10 +28,10 @@ var classct_1_1rbd_1_1Dynamics =
     [ "ProjectedInverseDynamics", "classct_1_1rbd_1_1Dynamics.html#a3f6cc6920c8806b350fde5a4194bc06c", null ],
     [ "ProjectedInverseDynamicsNoGravity", "classct_1_1rbd_1_1Dynamics.html#a505ac10ce3fd92e88b2c8cf18f18b8f6", null ],
     [ "kinematics", "classct_1_1rbd_1_1Dynamics.html#a485dc4f739739b9a3eb31cdccc0dc24a", null ],
-    [ "kinematics", "classct_1_1rbd_1_1Dynamics.html#a15bbb41fa503c226729b26be3ea31793", null ],
+    [ "kinematics", "classct_1_1rbd_1_1Dynamics.html#ae7af2d9073d983f384394354a4ab23cc", null ],
     [ "kinematicsPtr", "classct_1_1rbd_1_1Dynamics.html#a66130ff39cf5a2cd0283d21774d7635d", null ],
-    [ "kinematicsPtr", "classct_1_1rbd_1_1Dynamics.html#afef9299b1344d44d7af4599e768dd205", null ],
+    [ "kinematicsPtr", "classct_1_1rbd_1_1Dynamics.html#a1fcf08e68a248841682ccf34965f6c03", null ],
     [ "S", "classct_1_1rbd_1_1Dynamics.html#af3914bbaf499fd58ce8440d3d778f7d0", null ],
-    [ "S", "classct_1_1rbd_1_1Dynamics.html#ae04c1ce5ec35ce7372946da806a05e8f", null ],
+    [ "S", "classct_1_1rbd_1_1Dynamics.html#a93f034bbe9bf9fb099759ced4107545b", null ],
     [ "ROBCOGEN", "classct_1_1rbd_1_1Dynamics.html#a9fa42b905b2b058bcfa769557a44c4eb", null ]
 ];

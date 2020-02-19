@@ -14,7 +14,6 @@ var classct_1_1optcon_1_1ControlInputConstraint =
     [ "~ControlInputConstraint", "classct_1_1optcon_1_1ControlInputConstraint.html#ac4fb14b1500eb8c1bf51cd3e3f737d79", null ],
     [ "clone", "classct_1_1optcon_1_1ControlInputConstraint.html#a24fd587b5d0dd0f993dea37e512a6fd5", null ],
     [ "evaluate", "classct_1_1optcon_1_1ControlInputConstraint.html#ab2bfed60d7de5e334db0d2c5970adeeb", null ],
-    [ "evaluateCppadCg", "classct_1_1optcon_1_1ControlInputConstraint.html#a91c5974c2b1360a9d0fb5bff2681ef6c", null ],
     [ "jacobianState", "classct_1_1optcon_1_1ControlInputConstraint.html#a0441fb6e9d83da5afc9f4ad3daea5e81", null ],
     [ "jacobianInput", "classct_1_1optcon_1_1ControlInputConstraint.html#acc4059300a7f869fe183254e3491de40", null ],
     [ "getNumNonZerosJacobianState", "classct_1_1optcon_1_1ControlInputConstraint.html#ad8b1d8f62164d701294db493c2cd7816", null ],

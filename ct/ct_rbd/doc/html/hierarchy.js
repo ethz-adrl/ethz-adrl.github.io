@@ -19,8 +19,6 @@ var hierarchy =
     ] ],
     [ "ct::rbd::CoordinateBase< NUM_OUTPUTS, NUM_JOINTS >", "classct_1_1rbd_1_1CoordinateBase.html", null ],
     [ "iit::rbd::Core< SCALAR >", "structiit_1_1rbd_1_1Core.html", null ],
-    [ "ct::rbd::internal::CppADCodegenTrait", "classct_1_1rbd_1_1internal_1_1CppADCodegenTrait.html", null ],
-    [ "ct::rbd::internal::CppADDoubleTrait", "structct_1_1rbd_1_1internal_1_1CppADDoubleTrait.html", null ],
     [ "iit::rbd::Utils::CwiseAlmostZeroOp< Scalar >", "structiit_1_1rbd_1_1Utils_1_1CwiseAlmostZeroOp.html", null ],
     [ "ct::optcon::tpl::DiscreteConstraintBase< SCALAR >", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1tpl_1_1DiscreteConstraintBase.html", [
       [ "ct::rbd::JointLimitConstraints< KINEMATICS, SCALAR >", "classct_1_1rbd_1_1JointLimitConstraints.html", null ]
@@ -29,7 +27,7 @@ var hierarchy =
       [ "ct::rbd::IKConstraintsContainer< KINEMATICS, SCALAR >", "classct_1_1rbd_1_1IKConstraintsContainer.html", null ]
     ] ],
     [ "ct::optcon::tpl::DiscreteCostEvaluatorBase< SCALAR >", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1tpl_1_1DiscreteCostEvaluatorBase.html", [
-      [ "ct::rbd::IKCostEvaluator< KINEMATICS_AD, SCALAR >", "classct_1_1rbd_1_1IKCostEvaluator.html", null ]
+      [ "ct::rbd::IKCostEvaluator< KINEMATICS, SCALAR >", "classct_1_1rbd_1_1IKCostEvaluator.html", null ]
     ] ],
     [ "iit::rbd::DoubleTrait", "structiit_1_1rbd_1_1DoubleTrait.html", null ],
     [ "ct::rbd::Dynamics< RBD, NEE >", "classct_1_1rbd_1_1Dynamics.html", null ],
@@ -41,8 +39,8 @@ var hierarchy =
     [ "ct::rbd::FloatingBaseSLQ< RBDDynamics >", "classct_1_1rbd_1_1FloatingBaseSLQ.html", null ],
     [ "ct::rbd::FloatingBaseTransforms< RBD >", "classct_1_1rbd_1_1FloatingBaseTransforms.html", null ],
     [ "iit::rbd::FloatTrait", "structiit_1_1rbd_1_1FloatTrait.html", null ],
-    [ "iit::TestHyQ::dyn::tpl::ForwardDynamics< TRAIT >", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html", null ],
     [ "iit::testirb4600::dyn::tpl::ForwardDynamics< TRAIT >", "classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1ForwardDynamics.html", null ],
+    [ "iit::TestHyQ::dyn::tpl::ForwardDynamics< TRAIT >", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1ForwardDynamics.html", null ],
     [ "ct::rbd::tpl::FrameJacobian< NUM_JOINTS, SCALAR >", "classct_1_1rbd_1_1tpl_1_1FrameJacobian.html", null ],
     [ "ct::rbd::IDControllerFB< Dynamics >", "classct_1_1rbd_1_1IDControllerFB.html", null ],
     [ "ikfast::IkFastFunctions< T >", "classikfast_1_1IkFastFunctions.html", null ],
@@ -55,10 +53,10 @@ var hierarchy =
       [ "ikfast::IkSolutionList< T >", "classikfast_1_1IkSolutionList.html", null ]
     ] ],
     [ "iit::rbd::Utils::InertiaMoments", "structiit_1_1rbd_1_1Utils_1_1InertiaMoments.html", null ],
-    [ "iit::TestHyQ::dyn::tpl::InertiaProperties< TRAIT >", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1InertiaProperties.html", null ],
     [ "iit::testirb4600::dyn::tpl::InertiaProperties< TRAIT >", "classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1InertiaProperties.html", null ],
-    [ "iit::TestHyQ::dyn::tpl::InverseDynamics< TRAIT >", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1InverseDynamics.html", null ],
+    [ "iit::TestHyQ::dyn::tpl::InertiaProperties< TRAIT >", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1InertiaProperties.html", null ],
     [ "iit::testirb4600::dyn::tpl::InverseDynamics< TRAIT >", "classiit_1_1testirb4600_1_1dyn_1_1tpl_1_1InverseDynamics.html", null ],
+    [ "iit::TestHyQ::dyn::tpl::InverseDynamics< TRAIT >", "classiit_1_1TestHyQ_1_1dyn_1_1tpl_1_1InverseDynamics.html", null ],
     [ "ct::rbd::InverseKinematicsBase< NJOINTS, SCALAR >", "classct_1_1rbd_1_1InverseKinematicsBase.html", null ],
     [ "ct::rbd::InverseKinematicsBase< 6, SCALAR >", "classct_1_1rbd_1_1InverseKinematicsBase.html", null ],
     [ "ct::rbd::InverseKinematicsBase< IKNLP::Kinematics_t::NJOINTS, IKNLP::Scalar_t >", "classct_1_1rbd_1_1InverseKinematicsBase.html", [
@@ -81,8 +79,8 @@ var hierarchy =
     ] ],
     [ "ct::rbd::JacobiSingularity< ROWS, COLS >", "classct_1_1rbd_1_1JacobiSingularity.html", null ],
     [ "ct::rbd::JointAcceleration< NJOINTS, SCALAR >", "classct_1_1rbd_1_1JointAcceleration.html", null ],
-    [ "iit::TestHyQ::JointDataMap< T >", "classiit_1_1TestHyQ_1_1JointDataMap.html", null ],
     [ "iit::testirb4600::JointDataMap< T >", "classiit_1_1testirb4600_1_1JointDataMap.html", null ],
+    [ "iit::TestHyQ::JointDataMap< T >", "classiit_1_1TestHyQ_1_1JointDataMap.html", null ],
     [ "ct::rbd::JointState< NJOINTS, SCALAR >", "classct_1_1rbd_1_1JointState.html", null ],
     [ "ct::rbd::JointState< NJOINTS, double >", "classct_1_1rbd_1_1JointState.html", null ],
     [ "ct::rbd::JointState< NJOINTS, Scalar >", "classct_1_1rbd_1_1JointState.html", null ],
@@ -141,8 +139,8 @@ var hierarchy =
     ] ],
     [ "ct::rbd::RBDState< NJOINTS, Scalar >", "classct_1_1rbd_1_1RBDState.html", null ],
     [ "ct::rbd::RBDState< NUM_JOINTS >", "classct_1_1rbd_1_1RBDState.html", null ],
-    [ "ct::rbd::RBDState< NUM_JOINTS, SCALAR >", "classct_1_1rbd_1_1RBDState.html", null ],
     [ "ct::rbd::RBDState< NUM_JOINTS, Scalar >", "classct_1_1rbd_1_1RBDState.html", null ],
+    [ "ct::rbd::RBDState< NUM_JOINTS, SCALAR >", "classct_1_1rbd_1_1RBDState.html", null ],
     [ "ct::rbd::RBDSystem< RBDDynamics, QUAT_INTEGRATION >", "classct_1_1rbd_1_1RBDSystem.html", [
       [ "ct::rbd::FloatingBaseFDSystem< RBDDynamics, QUAT_INTEGRATION, EE_ARE_CONTROL_INPUTS >", "classct_1_1rbd_1_1FloatingBaseFDSystem.html", null ],
       [ "ct::rbd::ProjectedFDSystem< RBDDynamics, QUAT_INTEGRATION >", "classct_1_1rbd_1_1ProjectedFDSystem.html", null ]
@@ -168,8 +166,8 @@ var hierarchy =
     [ "ct::rbd::tpl::RigidBodyState< double >", "classct_1_1rbd_1_1tpl_1_1RigidBodyState.html", null ],
     [ "ct::rbd::tpl::RigidBodyState< Scalar >", "classct_1_1rbd_1_1tpl_1_1RigidBodyState.html", null ],
     [ "ct::rbd::RobCoGenContainer< RBDTrait, LinkDataMapT, U >", "classct_1_1rbd_1_1RobCoGenContainer.html", null ],
-    [ "iit::testirb4600::dyn::RuntimeInertiaParams", "structiit_1_1testirb4600_1_1dyn_1_1RuntimeInertiaParams.html", null ],
     [ "iit::TestHyQ::dyn::RuntimeInertiaParams", "structiit_1_1TestHyQ_1_1dyn_1_1RuntimeInertiaParams.html", null ],
+    [ "iit::testirb4600::dyn::RuntimeInertiaParams", "structiit_1_1testirb4600_1_1dyn_1_1RuntimeInertiaParams.html", null ],
     [ "iit::TestHyQ::dyn::RuntimeParamsGetter", "classiit_1_1TestHyQ_1_1dyn_1_1RuntimeParamsGetter.html", [
       [ "iit::TestHyQ::dyn::DefaultParamsGetter", "classiit_1_1TestHyQ_1_1dyn_1_1DefaultParamsGetter.html", null ]
     ] ],
@@ -226,21 +224,14 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "ct::optcon::TermBase< STATE_DIM, CONTROL_DIM, double, ct::core::ADCGScalar >", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1TermBase.html", [
-      [ "ct::rbd::TermTaskspacePose< KINEMATICS, FB, STATE_DIM, CONTROL_DIM >", "classct_1_1rbd_1_1TermTaskspacePose.html", null ],
-      [ "ct::rbd::TermTaskspacePosition< KINEMATICS, FB, STATE_DIM, CONTROL_DIM >", "classct_1_1rbd_1_1TermTaskspacePosition.html", null ]
-    ] ],
     [ "ct::optcon::TermBase< STATE_DIM, CONTROL_DIM, double, double >", "../../../ct_optcon/doc/html/classct_1_1optcon_1_1TermBase.html", [
-      [ "ct::rbd::TermTaskspaceGeometricJacobian< KINEMATICS, STATE_DIM, CONTROL_DIM >", "classct_1_1rbd_1_1TermTaskspaceGeometricJacobian.html", null ],
-      [ "ct::rbd::TermTaskspacePoseCG< KINEMATICS, FLOATING_BASE, STATE_DIM, CONTROL_DIM >", "classct_1_1rbd_1_1TermTaskspacePoseCG.html", null ]
+      [ "ct::rbd::TermTaskspaceGeometricJacobian< KINEMATICS, STATE_DIM, CONTROL_DIM >", "classct_1_1rbd_1_1TermTaskspaceGeometricJacobian.html", null ]
     ] ],
-    [ "iit::testirb4600::tpl::Traits< SCALAR >", "structiit_1_1testirb4600_1_1tpl_1_1Traits.html", null ],
     [ "iit::TestHyQ::tpl::Traits< SCALAR >", "structiit_1_1TestHyQ_1_1tpl_1_1Traits.html", null ],
+    [ "iit::testirb4600::tpl::Traits< SCALAR >", "structiit_1_1testirb4600_1_1tpl_1_1Traits.html", null ],
     [ "Eigen::internal::traits< iit::rbd::HomogeneousTransformBase< State, M > >", "structEigen_1_1internal_1_1traits_3_01iit_1_1rbd_1_1HomogeneousTransformBase_3_01State_00_01M_01_4_01_4.html", null ],
     [ "Eigen::internal::traits< iit::rbd::RotationTransformBase< State, M > >", "structEigen_1_1internal_1_1traits_3_01iit_1_1rbd_1_1RotationTransformBase_3_01State_00_01M_01_4_01_4.html", null ],
     [ "iit::rbd::tpl::TraitSelector< SCALAR >", "structiit_1_1rbd_1_1tpl_1_1TraitSelector.html", null ],
-    [ "iit::rbd::tpl::TraitSelector< CppAD::AD< CppAD::cg::CG< double > > >", "structiit_1_1rbd_1_1tpl_1_1TraitSelector_3_01CppAD_1_1AD_3_01CppAD_1_1cg_1_1CG_3_01double_01_4_01_4_01_4.html", null ],
-    [ "iit::rbd::tpl::TraitSelector< CppAD::AD< double > >", "structiit_1_1rbd_1_1tpl_1_1TraitSelector_3_01CppAD_1_1AD_3_01double_01_4_01_4.html", null ],
     [ "iit::rbd::tpl::TraitSelector< double >", "structiit_1_1rbd_1_1tpl_1_1TraitSelector_3_01double_01_4.html", null ],
     [ "iit::rbd::tpl::TraitSelector< float >", "structiit_1_1rbd_1_1tpl_1_1TraitSelector_3_01float_01_4.html", null ],
     [ "TwistLinearVelocityLocalAngularVelocity", null, [
@@ -248,6 +239,6 @@ var hierarchy =
       [ "ct::rbd::tpl::RigidBodyVelocities< double >", "classct_1_1rbd_1_1tpl_1_1RigidBodyVelocities.html", null ],
       [ "ct::rbd::tpl::RigidBodyVelocities< Scalar >", "classct_1_1rbd_1_1tpl_1_1RigidBodyVelocities.html", null ]
     ] ],
-    [ "iit::rbd::Utils", "classiit_1_1rbd_1_1Utils.html", null ],
-    [ "ct::rbd::TARGET_NS::Utils< SCALAR >", "classct_1_1rbd_1_1TARGET__NS_1_1Utils.html", null ]
+    [ "ct::rbd::TARGET_NS::Utils< SCALAR >", "classct_1_1rbd_1_1TARGET__NS_1_1Utils.html", null ],
+    [ "iit::rbd::Utils", "classiit_1_1rbd_1_1Utils.html", null ]
 ];

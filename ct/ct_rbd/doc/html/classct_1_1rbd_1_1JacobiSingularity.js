@@ -9,8 +9,8 @@ var classct_1_1rbd_1_1JacobiSingularity =
       [ "SINGULAR_VALUES", "classct_1_1rbd_1_1JacobiSingularity.html#ae83d030a41aa2dd2985b778965caecd8aa29f770a9679f1b0b15c7a32b77970ca", null ]
     ] ],
     [ "JacobiSingularity", "classct_1_1rbd_1_1JacobiSingularity.html#a628ad58a0caa3e62859d424fc065e238", null ],
-    [ "calc_condition_number", "classct_1_1rbd_1_1JacobiSingularity.html#ae3a56acbfc742c4bb4b0ef9e653b28a9", null ],
-    [ "calc_manipulability", "classct_1_1rbd_1_1JacobiSingularity.html#a5d8b04b911ad380e0a7db9f043b76b1b", null ],
-    [ "calc_singular_values", "classct_1_1rbd_1_1JacobiSingularity.html#aea06bae562581eddea10145bf15388ac", null ],
+    [ "calc_condition_number", "classct_1_1rbd_1_1JacobiSingularity.html#abf9a85e613625beb6638f24ba6ea4a92", null ],
+    [ "calc_manipulability", "classct_1_1rbd_1_1JacobiSingularity.html#af759bd99a73790f1e2b666488aabf7e9", null ],
+    [ "calc_singular_values", "classct_1_1rbd_1_1JacobiSingularity.html#a17d180183da49bd32e50a7478cd778fc", null ],
     [ "Jacobian", "classct_1_1rbd_1_1JacobiSingularity.html#a22c509e830addaed079d9e8c30b75173", null ]
 ];

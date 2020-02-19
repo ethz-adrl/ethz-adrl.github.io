@@ -8,7 +8,7 @@ var classct_1_1core_1_1SubstepRecorder =
     [ "handleEvent", "classct_1_1core_1_1SubstepRecorder.html#a10128e589d9739bee7c00388515c3edc", null ],
     [ "setEnable", "classct_1_1core_1_1SubstepRecorder.html#a3307f507a75a226a530de82d48658d8f", null ],
     [ "reset", "classct_1_1core_1_1SubstepRecorder.html#a5669bbd7bddb501c80713e4436434e2e", null ],
-    [ "getSubstates", "classct_1_1core_1_1SubstepRecorder.html#a78fc0f4e6b6e4a54b782cdb37b5447c5", null ],
-    [ "getSubcontrols", "classct_1_1core_1_1SubstepRecorder.html#a15317e9a9f61e1fbe3f1d84162e11aed", null ],
+    [ "getSubstates", "classct_1_1core_1_1SubstepRecorder.html#aa5a78cef1bb6ca7f3d055aec531c69de", null ],
+    [ "getSubcontrols", "classct_1_1core_1_1SubstepRecorder.html#ab5fece8c97076d7a44c689b7ecf3b9d9", null ],
     [ "state_t", "classct_1_1core_1_1SubstepRecorder.html#aa9851227e4b358ec9e43304d568396af", null ]
 ];

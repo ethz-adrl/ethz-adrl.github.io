@@ -23,20 +23,20 @@
 \form#22:$ t $
 \form#23:$ u = g(x,t) $
 \form#24:\[ \dot{x} = f(x(t),u(x,t),t) = g(x,t) \]
-\form#25:$ \dot{x} = f(x,u,t) $
-\form#26:$ x = x_s $
-\form#27:$ u = u_s $
-\form#28:\[ \dot{x} = A x + B u \]
-\form#29:\[ \begin{aligned} A &= \frac{df}{dx} |_{x=x_s, u=u_s} \\ B &= \frac{df}{du} |_{x=x_s, u=u_s} \end{aligned} \]
-\form#30:$ x=x_s $
-\form#31:$ u=u_s $
-\form#32:\[ A = \frac{df}{dx} |_{x=x_s, u=u_s} \]
-\form#33:\[ B = \frac{df}{du} |_{x=x_s, u=u_s} \]
-\form#34:\[ \dot{x} = Ax + Bu \]
-\form#35:\[ \begin{aligned} \dot{x} &= Ax + Bu \\ y &= Cx + Du \end{aligned} \]
-\form#36:$ \dot{x} = Ax + Bu $
-\form#37:$ y = Cx + Du $
-\form#38:\[ A = \begin{bmatrix} 0 & I \\ ... & ... \end{bmatrix} \]
+\form#25:\[ \dot{x} = Ax + Bu \]
+\form#26:\[ \begin{aligned} \dot{x} &= Ax + Bu \\ y &= Cx + Du \end{aligned} \]
+\form#27:$ \dot{x} = Ax + Bu $
+\form#28:$ y = Cx + Du $
+\form#29:$ \dot{x} = f(x,u,t) $
+\form#30:$ x = x_s $
+\form#31:$ u = u_s $
+\form#32:\[ \dot{x} = A x + B u \]
+\form#33:\[ \begin{aligned} A &= \frac{df}{dx} |_{x=x_s, u=u_s} \\ B &= \frac{df}{du} |_{x=x_s, u=u_s} \end{aligned} \]
+\form#34:\[ A = \begin{bmatrix} 0 & I \\ ... & ... \end{bmatrix} \]
+\form#35:$ x=x_s $
+\form#36:$ u=u_s $
+\form#37:\[ A = \frac{df}{dx} |_{x=x_s, u=u_s} \]
+\form#38:\[ B = \frac{df}{du} |_{x=x_s, u=u_s} \]
 \form#39:\[ x = [p ~ \dot{p}]^T \]
 \form#40:\[ f(x,u,t) = \dot{x} = [\dot{p} ~ \ddot{p}]^T = \begin{bmatrix} \dot{p} \\ g_{dc} \omega^2_{n} u - 2.0 \zeta \omega_n \dot{p} - \omega^2_{n} p; \end{bmatrix} \]
 \form#41:$ g_{dc} $

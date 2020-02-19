@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_5forder_5fhold',['ZERO_ORDER_HOLD',['../classct_1_1optcon_1_1DmsSettings.html#a19096ebd042dee53e69a8f0fcf45e1daa8d9041df0d48c3b7310cc348dcdb7cc0',1,'ct::optcon::DmsSettings']]]
+  ['tustin',['TUSTIN',['../../../../ct_optcon/doc/html/structct_1_1core_1_1SensitivityApproximationSettings.html#a851b773408d711a6ddecee9b304ae733ac0389ef20e2cfb3b6e442a65a9c8c334',1,'ct::core::SensitivityApproximationSettings']]]
 ];

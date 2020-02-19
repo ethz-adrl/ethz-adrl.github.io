@@ -12,6 +12,6 @@ var classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics =
     [ "ForwardDynamics", "classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a04a78c59c7ceb0349e0e7352f0284e6d", null ],
     [ "fd", "classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a38672358ea202ae969934f2c214a2ed1", null ],
     [ "fd", "classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a2d3cef514e537d4e56e23a2758cf28e5", null ],
-    [ "setJointStatus", "classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html#a73dc9a7815b1907c19eb86d570df4e41", null ],
+    [ "setJointStatus", "classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html#ac3876ecfc52704dbb1d45bb7a6792d8c", null ],
     [ "Scalar", "classiit_1_1ct__InvertedPendulum_1_1dyn_1_1tpl_1_1ForwardDynamics.html#ada2240b8a10469ddb5971349855e7d11", null ]
 ];

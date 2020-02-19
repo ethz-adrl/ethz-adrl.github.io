@@ -8,7 +8,7 @@ var classct_1_1core_1_1DerivativesCppadSettings =
     ] ],
     [ "DerivativesCppadSettings", "classct_1_1core_1_1DerivativesCppadSettings.html#a1e73110773212de05d9dcecd0c873d05", null ],
     [ "print", "classct_1_1core_1_1DerivativesCppadSettings.html#aeedc01f51568d73c9ed777a7bc6a86aa", null ],
-    [ "parametersOk", "classct_1_1core_1_1DerivativesCppadSettings.html#a89cef6c98a231985e00c335b75122a65", null ],
+    [ "parametersOk", "classct_1_1core_1_1DerivativesCppadSettings.html#af1fa6c7158cfce84a8f3c9e1ac0b515d", null ],
     [ "load", "classct_1_1core_1_1DerivativesCppadSettings.html#a574e0a5df707280de2dcc872218c5ba2", null ],
     [ "multiThreading_", "classct_1_1core_1_1DerivativesCppadSettings.html#ab77712f0e9f4965c99ea3a62bef65882", null ],
     [ "createForwardZero_", "classct_1_1core_1_1DerivativesCppadSettings.html#a5c8631327d218217f97d95bae3320938", null ],
@@ -21,5 +21,6 @@ var classct_1_1core_1_1DerivativesCppadSettings =
     [ "createSparseHessian_", "classct_1_1core_1_1DerivativesCppadSettings.html#a73f5a48455f05d14bbd359ef2a329bec", null ],
     [ "maxAssignements_", "classct_1_1core_1_1DerivativesCppadSettings.html#af511578219cb43b2226e9ee8661d8f40", null ],
     [ "compiler_", "classct_1_1core_1_1DerivativesCppadSettings.html#a16b32381521cb09454e3a5bcb7e07d22", null ],
-    [ "generateSourceCode_", "classct_1_1core_1_1DerivativesCppadSettings.html#ad4885a9375d7ce872bfed738be54e91d", null ]
+    [ "generateSourceCode_", "classct_1_1core_1_1DerivativesCppadSettings.html#ad4885a9375d7ce872bfed738be54e91d", null ],
+    [ "useDynamicLibrary_", "classct_1_1core_1_1DerivativesCppadSettings.html#a100f77c98214cbddba7d5aaf9e20238e", null ]
 ];

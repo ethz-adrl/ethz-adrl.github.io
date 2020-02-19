@@ -2,7 +2,7 @@ var mpc__unittest__plotting_8m =
 [
     [ "figure", "mpc__unittest__plotting_8m.html#a39cc4eae8cc13eaea23364936540819f", null ],
     [ "figure", "mpc__unittest__plotting_8m.html#a0d62f9ad373a07e712cd6b80fbd92e0e", null ],
-    [ "plot", "mpc__unittest__plotting_8m.html#a6e5a164286b22dcc91e6661d3be008a8", null ],
+    [ "plot", "mpc__unittest__plotting_8m.html#a263cb8faac47bebc7b649e4b24a83c1f", null ],
     [ "plot", "mpc__unittest__plotting_8m.html#ac1b340a8661b3583729b4a0576b68ab6", null ],
     [ "plot", "mpc__unittest__plotting_8m.html#a237738ae07d06f42ac7949d3998b15f7", null ],
     [ "numVars", "mpc__unittest__plotting_8m.html#a867c69144710edba1732f48bc75b31cb", null ],

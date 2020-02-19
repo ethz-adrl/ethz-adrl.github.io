@@ -10,7 +10,7 @@ var classct_1_1core_1_1DiscreteControlledSystem =
     [ "~DiscreteControlledSystem", "classct_1_1core_1_1DiscreteControlledSystem.html#a16d6bc71a25ecca0b1c5a29059f181a9", null ],
     [ "clone", "classct_1_1core_1_1DiscreteControlledSystem.html#a504c205978033ed1e54be2172b0f3dea", null ],
     [ "setController", "classct_1_1core_1_1DiscreteControlledSystem.html#aa1b9f42e54683b8ee2b6565b6b257dbf", null ],
-    [ "getController", "classct_1_1core_1_1DiscreteControlledSystem.html#a317ba3244407b4a54c9f3c2f59cf89a7", null ],
+    [ "getController", "classct_1_1core_1_1DiscreteControlledSystem.html#a750062c240bc91e38e5c0bdb57255f65", null ],
     [ "getController", "classct_1_1core_1_1DiscreteControlledSystem.html#a3e0f1e67276bb2f2f506c728d8d47d21", null ],
     [ "propagateDynamics", "classct_1_1core_1_1DiscreteControlledSystem.html#a4e1488601fb071291b5b54b9347edde2", null ],
     [ "propagateControlledDynamics", "classct_1_1core_1_1DiscreteControlledSystem.html#ae2fe2d03379bbdba093668d927a7fd95", null ],

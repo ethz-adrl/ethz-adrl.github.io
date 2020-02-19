@@ -16,7 +16,7 @@ var classct_1_1rbd_1_1EEContactModel =
     ] ],
     [ "EEContactModel", "classct_1_1rbd_1_1EEContactModel.html#a7d69ebed14de843b46efd0b345f19062", null ],
     [ "EEContactModel", "classct_1_1rbd_1_1EEContactModel.html#a3d4dbaeb7beaa74c4328f54b7ac87102", null ],
-    [ "clone", "classct_1_1rbd_1_1EEContactModel.html#a77838a7775549f40562d4c3d4a84be3a", null ],
+    [ "clone", "classct_1_1rbd_1_1EEContactModel.html#a438eefcd23d92b988d1d33b09a44f7a4", null ],
     [ "setActiveEE", "classct_1_1rbd_1_1EEContactModel.html#ae37af19cf4528a6e01daee59feff2093", null ],
     [ "computeContactForces", "classct_1_1rbd_1_1EEContactModel.html#a2e9bbd510d2d8a80cfddd2f031f51e38", null ],
     [ "alpha", "classct_1_1rbd_1_1EEContactModel.html#addb8367742c834cfb59d468ed128381b", null ],

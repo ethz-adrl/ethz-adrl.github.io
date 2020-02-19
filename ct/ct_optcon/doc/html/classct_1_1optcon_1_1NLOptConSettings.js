@@ -1,9 +1,14 @@
 var classct_1_1optcon_1_1NLOptConSettings =
 [
-    [ "APPROXIMATION", "classct_1_1optcon_1_1NLOptConSettings.html#a468e2d3178b71a953bc6d20c0b10fb56", null ],
+    [ "APPROXIMATION", "classct_1_1optcon_1_1NLOptConSettings.html#a2692652791bb5c46a91a5d7324e19438", null ],
     [ "NLOCP_ALGORITHM", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678", [
       [ "GNMS", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678a51d49d9c6189d4cc2aac6f9d1a2f276d", null ],
       [ "ILQR", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678af7180a1e0ef88d237cc38ea1133c4ab1", null ],
+      [ "MS_ILQR", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678a4bfb519e57b2ccb3a3fecc352b97cd44", null ],
+      [ "SS_OL", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678ae114c9b52f2e4d12225b651c73fd5813", null ],
+      [ "SS_CL", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678ad406de61f87cdff5ee683d8bf42a11df", null ],
+      [ "GNMS_M_OL", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678abeeabd2e89ca32d1840b8b376b8f5e0e", null ],
+      [ "GNMS_M_CL", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678a5b5a22f963faf4bc491dccafc27555e1", null ],
       [ "NUM_TYPES", "classct_1_1optcon_1_1NLOptConSettings.html#a93dc616bd5167e642fec28a9d1537678a86b16913975fd29792f181d15564d55a", null ]
     ] ],
     [ "LQOCP_SOLVER", "classct_1_1optcon_1_1NLOptConSettings.html#a4597ecd15ed2a17f6fe352489662aa10", [
@@ -11,10 +16,12 @@ var classct_1_1optcon_1_1NLOptConSettings =
       [ "HPIPM_SOLVER", "classct_1_1optcon_1_1NLOptConSettings.html#a4597ecd15ed2a17f6fe352489662aa10a1210143ff4945803fc79c7c197917c9d", null ]
     ] ],
     [ "NLOptConSettings", "classct_1_1optcon_1_1NLOptConSettings.html#ae6c25f1288cabc1026a3c442e32774ed", null ],
-    [ "computeK", "classct_1_1optcon_1_1NLOptConSettings.html#acd0c8a554aeb1f62d9b2583fe1aeba22", null ],
-    [ "getSimulationTimestep", "classct_1_1optcon_1_1NLOptConSettings.html#af204c0a5d1696d01b4f4b02f9757a0e3", null ],
-    [ "print", "classct_1_1optcon_1_1NLOptConSettings.html#a84e0c20130b113d72c8bd4652d978e5b", null ],
-    [ "parametersOk", "classct_1_1optcon_1_1NLOptConSettings.html#ace70f07da378a1d76b42aa81b8c96038", null ],
+    [ "computeK", "classct_1_1optcon_1_1NLOptConSettings.html#aaf366d7efc0ef5a6b4084f561d163fd8", null ],
+    [ "getSimulationTimestep", "classct_1_1optcon_1_1NLOptConSettings.html#ac35bbf75182b3adbc41a1da052979f3c", null ],
+    [ "closedLoopShooting", "classct_1_1optcon_1_1NLOptConSettings.html#a8cea32441960c66e57ce0a11fdbfcb0f", null ],
+    [ "isSingleShooting", "classct_1_1optcon_1_1NLOptConSettings.html#ae025257395acd06883ccdf2000dedaec", null ],
+    [ "print", "classct_1_1optcon_1_1NLOptConSettings.html#a4b79948f4ba88e3157609d2187e107a8", null ],
+    [ "parametersOk", "classct_1_1optcon_1_1NLOptConSettings.html#a61248d5d1c78c4cb68f90e7bf212b0e1", null ],
     [ "load", "classct_1_1optcon_1_1NLOptConSettings.html#add42b51ffc39ac32b4fd43283e962666", null ],
     [ "integrator", "classct_1_1optcon_1_1NLOptConSettings.html#ac9b068e4dbb91fbdb9bfb01c6fe7826d", null ],
     [ "discretization", "classct_1_1optcon_1_1NLOptConSettings.html#a762b5ea91f52d8d56fe88783a278d6e7", null ],
@@ -22,7 +29,6 @@ var classct_1_1optcon_1_1NLOptConSettings =
     [ "nlocp_algorithm", "classct_1_1optcon_1_1NLOptConSettings.html#aa4ca90637e4f1542374257d737b83750", null ],
     [ "lqocp_solver", "classct_1_1optcon_1_1NLOptConSettings.html#ae5af71e7649f3c11ac62883f27dc5201", null ],
     [ "loggingPrefix", "classct_1_1optcon_1_1NLOptConSettings.html#a10053a0d99628fb7711e9983f3e15cd7", null ],
-    [ "closedLoopShooting", "classct_1_1optcon_1_1NLOptConSettings.html#af91627395c37307e487eb3cbffcaaa07", null ],
     [ "epsilon", "classct_1_1optcon_1_1NLOptConSettings.html#ab8956dcba480743f895848bddc91dada", null ],
     [ "dt", "classct_1_1optcon_1_1NLOptConSettings.html#a74f1f08630a1149c1b406d8094ab3b10", null ],
     [ "K_sim", "classct_1_1optcon_1_1NLOptConSettings.html#ac0828f6329e26db9dbf13c0fbf3a92d6", null ],
